@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity]" parallel="tests">
+  <test thread-count="5" name="Sanity1(failed)" parallel="tests">
+    <classes>
+      <class name="Selenium_Docker.Selenium_Docker.GoogleSearchFirefox">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="googlesearch"/>
+        </methods>
+      </class> <!-- Selenium_Docker.Selenium_Docker.GoogleSearchFirefox -->
+    </classes>
+  </test> <!-- Sanity1(failed) -->
+</suite> <!-- Failed suite [Sanity] -->

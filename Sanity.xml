@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity" parallel="tests">
+    <test name="Sanity">
+        <classes>
+            <class name="Selenium_Docker.Selenium_Docker.GoogleSearchChrome" />
+        </classes>
+    </test>
+    <test name="Sanity1">
+        <classes>
+            <class name="Selenium_Docker.Selenium_Docker.GoogleSearchFirefox" />
+        </classes>
+    </test>
+ 
+</suite>
