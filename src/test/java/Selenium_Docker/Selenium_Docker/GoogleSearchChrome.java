@@ -26,11 +26,45 @@ public class GoogleSearchChrome {
 		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 				
 	}
 	
 	@Test
 	public void googlesearch() throws InterruptedException {
+		
+		driver.navigate().to("https://www.youtube.com/");
+		driver.findElement(By.xpath("//*[@id=\"search\"]")).sendKeys("Specialize Automation");
+		driver.findElement(By.xpath("//*[@id=\"search-icon-legacy\"]/yt-icon")).click();
+		System.out.println("search in chrome completed");
+		
+		Thread.sleep(5000);
+	}
+	
+	@Test
+	public void googlesearch1() throws InterruptedException {
+		
+		driver.navigate().to("https://www.youtube.com/");
+		driver.findElement(By.xpath("//*[@id=\"search\"]")).sendKeys("Specialize Automation");
+		driver.findElement(By.xpath("//*[@id=\"search-icon-legacy\"]/yt-icon")).click();
+		System.out.println("search in chrome completed");
+		
+		Thread.sleep(5000);
+	}
+	
+	@Test
+	public void googlesearch2() throws InterruptedException {
+		
+		driver.navigate().to("https://www.youtube.com/");
+		driver.findElement(By.xpath("//*[@id=\"search\"]")).sendKeys("Specialize Automation");
+		driver.findElement(By.xpath("//*[@id=\"search-icon-legacy\"]/yt-icon")).click();
+		System.out.println("search in chrome completed");
+		
+		Thread.sleep(5000);
+	}
+	
+	@Test
+	public void googlesearch3() throws InterruptedException {
 		
 		driver.navigate().to("https://www.youtube.com/");
 		driver.findElement(By.xpath("//*[@id=\"search\"]")).sendKeys("Specialize Automation");

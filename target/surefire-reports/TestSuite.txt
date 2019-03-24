@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 800.287 s <<< FAILURE! - in TestSuite
-setup(Selenium_Docker.Selenium_Docker.GoogleSearchFirefox)  Time elapsed: 797.805 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-KMFJ2QA', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: RemoteWebDriver
-	at Selenium_Docker.Selenium_Docker.GoogleSearchFirefox.setup(GoogleSearchFirefox.java:25)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
-	at Selenium_Docker.Selenium_Docker.GoogleSearchFirefox.setup(GoogleSearchFirefox.java:25)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at Selenium_Docker.Selenium_Docker.GoogleSearchFirefox.setup(GoogleSearchFirefox.java:25)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.196 s - in TestSuite

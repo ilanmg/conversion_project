@@ -1,33 +1,23 @@
-pipeline {
-    agent none
-    stages {
-        stage('Build Jar') {
-            agent {
-                docker {
-                    image 'maven:3-alpine'
-                    args '-v $HOME/.m2:/root/.m2'
-                }
-            }
-            steps {
-                sh 'mvn clean package -DskipTests'
-            }
-        }
-        stage('Build Image') {
-            steps {
-                script {
-                	app = docker.build("ilanmg/Selenium_Docker")
-                }
-            }
-        }
-        stage('Push Image') {
-            steps {
-                script {
-			        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-			        	app.push("${BUILD_NUMBER}")
-			            app.push("latest")
-			        }
-                }
-            }
-        }
-    }
+node{
+   stage('SCM Checkout'){
+       git credentialsId: 'git-creds', url: 'https://github.com/ilanmg/Selenium_Docker'
+   }
+   stage('Mvn Package'){
+     def mvnHome = tool name: 'Apache Maven 3.6.0', type: 'maven'
+     def mvnCMD = "${mvnHome}/bin/mvn"
+     sh "${mvnCMD} clean package"
+   }
+   stage('Build Docker Image'){
+     sh 'docker build -t ilanmg/selenium_docker .'
+   }
+   stage('Push Docker Image'){
+    
+     sh 'docker push ilanmg/Selenium_Docker'
+   }
+   stage('Run Container on Dev Server'){
+     def dockerRun = 'docker run -p 8080:8080 -d --name my-app ilanmg/Selenium_Docker'
+     sshagent(['dev-server']) {
+       sh "ssh -o StrictHostKeyChecking=no ec2-user@172.31.18.198 ${dockerRun}"
+     }
+   }
 }
