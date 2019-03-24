@@ -5,5 +5,5 @@
             <class name="Selenium_Docker.Selenium_Docker.GoogleSearchChrome" />
         </classes>
     </test>
-   
+  
 </suite>

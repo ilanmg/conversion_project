@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Sanity" duration-ms="31973" started-at="2019-03-24T06:51:59Z" finished-at="2019-03-24T06:52:31Z">
+  <suite name="Sanity" duration-ms="31323" started-at="2019-03-24T10:26:08Z" finished-at="2019-03-24T10:26:39Z">
     <groups>
     </groups>
-    <test name="Sanity" duration-ms="31973" started-at="2019-03-24T06:51:59Z" finished-at="2019-03-24T06:52:31Z">
+    <test name="Sanity" duration-ms="31323" started-at="2019-03-24T10:26:08Z" finished-at="2019-03-24T10:26:39Z">
       <class name="Selenium_Docker.Selenium_Docker.GoogleSearchChrome">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="setup" is-config="true" duration-ms="1296" started-at="2019-03-24T06:51:59Z" finished-at="2019-03-24T06:52:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="setup" is-config="true" duration-ms="1424" started-at="2019-03-24T10:26:08Z" finished-at="2019-03-24T10:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="googlesearch()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch" duration-ms="8580" started-at="2019-03-24T06:52:00Z" finished-at="2019-03-24T06:52:09Z">
+        <test-method status="PASS" signature="googlesearch()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch" duration-ms="7981" started-at="2019-03-24T10:26:09Z" finished-at="2019-03-24T10:26:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlesearch -->
-        <test-method status="PASS" signature="googlesearch1()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch1" duration-ms="7257" started-at="2019-03-24T06:52:09Z" finished-at="2019-03-24T06:52:16Z">
+        <test-method status="PASS" signature="googlesearch1()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch1" duration-ms="6990" started-at="2019-03-24T10:26:17Z" finished-at="2019-03-24T10:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlesearch1 -->
-        <test-method status="PASS" signature="googlesearch2()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch2" duration-ms="7262" started-at="2019-03-24T06:52:16Z" finished-at="2019-03-24T06:52:23Z">
+        <test-method status="PASS" signature="googlesearch2()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch2" duration-ms="7356" started-at="2019-03-24T10:26:24Z" finished-at="2019-03-24T10:26:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlesearch2 -->
-        <test-method status="PASS" signature="googlesearch3()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch3" duration-ms="7502" started-at="2019-03-24T06:52:23Z" finished-at="2019-03-24T06:52:31Z">
+        <test-method status="PASS" signature="googlesearch3()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="googlesearch3" duration-ms="7468" started-at="2019-03-24T10:26:32Z" finished-at="2019-03-24T10:26:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googlesearch3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="tearDown" is-config="true" duration-ms="60" started-at="2019-03-24T06:52:31Z" finished-at="2019-03-24T06:52:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Selenium_Docker.Selenium_Docker.GoogleSearchChrome@3bfdc050]" name="tearDown" is-config="true" duration-ms="87" started-at="2019-03-24T10:26:39Z" finished-at="2019-03-24T10:26:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
