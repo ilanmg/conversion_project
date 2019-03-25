@@ -50,6 +50,12 @@
             <class name="Sanity.PaymentTest" />
         </classes>
     </test>
+    <test name="Sanity11">
+        <classes>
+            <class name="Sanity.playPauseSong" />
+        </classes>
+    </test>
+    
     
 </suite>
 

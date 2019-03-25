@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sanity.PaymentTest">
+      <class name="Sanity.playPauseSong">
         <methods>
-          <include name="PaymentTestSuccess"/>
+          <include name="playPauseSong"/>
           <include name="setupDriver"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- Sanity.PaymentTest -->
+      </class> <!-- Sanity.playPauseSong -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
