@@ -2,6 +2,8 @@ package Sanity;
 
 
 import LoginPages.LoginPage;
+import junit.framework.Assert;
+
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
@@ -19,7 +21,7 @@ public class LoginTest9 extends BaseTest{
         loginPage.enterUserCredentials("#logemail", "#logpassword");
         loginPage.loginBtn();
 
-        //Assert.assertEquals(true, siteHeader.getLicenseBtn());
+        Assert.assertEquals(true, loginPage.signInBtn());
 
     }
 }

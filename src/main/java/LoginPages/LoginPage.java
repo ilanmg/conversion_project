@@ -38,8 +38,9 @@ public class LoginPage {
         this.driver.get("https://artlist.io");
         this.wait.until(ExpectedConditions.visibilityOf(this.signInBtn));
    }
-    public void signInBtn() {
+    public boolean signInBtn() {
         this.signInBtn.click();
+		return false;
     }
 
    public void enterUserCredentials(String  Email, String password) {
@@ -50,4 +51,12 @@ public class LoginPage {
    public void loginBtn() {
         this.loginBtn.click();
    }
+   public boolean startBtnIsDisplayed() {
+       return isElementVisible(signInBtn);
+   }
+
+private boolean isElementVisible(WebElement signInBtn) {
+	
+	return false;
+}
 }
