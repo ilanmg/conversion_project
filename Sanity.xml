@@ -5,12 +5,7 @@
             <class name="Sanity.LoginTest" />
         </classes>
     </test>
-   <test name="Sanity1">
-        <classes>
-            <class name="Sanity.LoginTest1" />
-        </classes>
-    </test>
-    <test name="Sanity2">
+   <test name="Sanity2">
         <classes>
             <class name="Sanity.LoginTest2" />
         </classes>
@@ -40,9 +35,14 @@
             <class name="Sanity.LoginTest7" />
         </classes>
     </test>
-     <test name="Sanity8">
+    <test name="Sanity8">
         <classes>
             <class name="Sanity.LoginTest8" />
+        </classes>
+    </test>
+     <test name="Sanity9">
+        <classes>
+            <class name="Sanity.LoginTest9" />
         </classes>
     </test>
 </suite>
