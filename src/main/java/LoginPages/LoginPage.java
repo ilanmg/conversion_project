@@ -13,9 +13,12 @@ public class LoginPage {
    private WebDriver driver;
    private WebDriverWait wait;
 
+    @FindBy(css = "#get-your-license")
+    private WebElement license;
+
     @FindBy(id = "user-login-btn")
     private WebElement signInBtn;
-
+    
     @FindBy(css= "#logemail")
     private WebElement logemail;
 
@@ -29,7 +32,7 @@ public class LoginPage {
 
 
     public LoginPage(WebDriver driver) {
-       this.driver = driver;
+       this.driver = driver; 
        this.wait = new WebDriverWait (driver, 30);
         PageFactory.initElements(driver, this);
    }
@@ -51,8 +54,8 @@ public class LoginPage {
    public void loginBtn() {
         this.loginBtn.click();
    }
-   public boolean startBtnIsDisplayed() {
-       return isElementVisible(signInBtn);
+   public boolean getLicense() {
+       return isElementVisible(license); 
    }
 
 private boolean isElementVisible(WebElement signInBtn) {
