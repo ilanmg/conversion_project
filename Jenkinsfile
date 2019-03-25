@@ -21,3 +21,13 @@ node{
      }
    }
 }
+
+
+
+docker run -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkinsci/blueocean
+
+bash-4.4# chmod 777 /var/run/docker.sock
+
+
+
+

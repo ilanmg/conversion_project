@@ -1,9 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Sanity" parallel="tests">
-    <test name="Sanity">
+   <test name="Sanity">
         <classes>
-            <class name="Selenium_Docker.Selenium_Docker.GoogleSearchChrome" />
+            <class name="Sanity.LoginTest" />
         </classes>
     </test>
-  
+   
 </suite>
+
+    
