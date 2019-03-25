@@ -2,24 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13677" started-at="2019-03-25T07:12:21Z" finished-at="2019-03-25T07:12:34Z">
+  <suite name="Default suite" duration-ms="18066" started-at="2019-03-25T10:12:05Z" finished-at="2019-03-25T10:12:24Z">
     <groups>
+      <group name="Artlist">
+        <method signature="PaymentTest.PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" class="Sanity.PaymentTest"/>
+      </group> <!-- Artlist -->
     </groups>
-    <test name="Default test" duration-ms="13677" started-at="2019-03-25T07:12:21Z" finished-at="2019-03-25T07:12:34Z">
-      <class name="Sanity.LoginTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="1481" started-at="2019-03-25T07:12:21Z" finished-at="2019-03-25T07:12:22Z">
+    <test name="Default test" duration-ms="18066" started-at="2019-03-25T10:12:05Z" finished-at="2019-03-25T10:12:24Z">
+      <class name="Sanity.PaymentTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="959" started-at="2019-03-25T10:12:05Z" finished-at="2019-03-25T10:12:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Sanity.LoginTest@604ed9f0]" name="LoginTest" duration-ms="12120" started-at="2019-03-25T07:12:22Z" finished-at="2019-03-25T07:12:34Z">
+        <test-method status="PASS" signature="PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" duration-ms="17029" started-at="2019-03-25T10:12:06Z" description="this test should enter a valid card and should be succeeded" finished-at="2019-03-25T10:12:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="66" started-at="2019-03-25T07:12:34Z" finished-at="2019-03-25T07:12:34Z">
+        </test-method> <!-- PaymentTestSuccess -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="66" started-at="2019-03-25T10:12:23Z" finished-at="2019-03-25T10:12:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest -->
+      </class> <!-- Sanity.PaymentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
