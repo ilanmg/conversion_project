@@ -24,7 +24,7 @@ public class playPauseSong extends BaseTest {
     @Test(description = "this test should play songs and pausing them")
     public void playPauseSong() throws InterruptedException {
 
-    	PlaySongsFromHomepage playSongsFromHomepage = new PlaySongsFromHomepage(driver);
+    	//PlaySongsFromHomepage playSongsFromHomepage = new PlaySongsFromHomepage(driver);
     	
     	
     	playSongsFromHomepage.goTo();
