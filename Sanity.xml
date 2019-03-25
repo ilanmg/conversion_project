@@ -45,6 +45,12 @@
             <class name="Sanity.LoginTest9" />
         </classes>
     </test>
+    <test name="Sanity10">
+        <classes>
+            <class name="Sanity.PaymentTest" />
+        </classes>
+    </test>
+    
 </suite>
 
     
