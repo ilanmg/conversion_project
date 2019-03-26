@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12328" started-at="2019-03-25T14:31:24Z" finished-at="2019-03-25T14:31:37Z">
+  <suite name="Default suite" duration-ms="13593" started-at="2019-03-26T08:12:19Z" finished-at="2019-03-26T08:12:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12328" started-at="2019-03-25T14:31:24Z" finished-at="2019-03-25T14:31:37Z">
+    <test name="Default test" duration-ms="13593" started-at="2019-03-26T08:12:19Z" finished-at="2019-03-26T08:12:33Z">
       <class name="Sanity.LoginTest9">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="setupDriver" is-config="true" duration-ms="977" started-at="2019-03-25T14:31:24Z" finished-at="2019-03-25T14:31:25Z">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="setupDriver" is-config="true" duration-ms="1003" started-at="2019-03-26T08:12:19Z" finished-at="2019-03-26T08:12:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="LoginTest" duration-ms="11276" started-at="2019-03-25T14:31:25Z" finished-at="2019-03-25T14:31:37Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="LoginTest" duration-ms="12505" started-at="2019-03-26T08:12:20Z" finished-at="2019-03-26T08:12:33Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
               <![CDATA[expected:<true> but was:<false>]]>
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="quitDriver" is-config="true" duration-ms="62" started-at="2019-03-25T14:31:37Z" finished-at="2019-03-25T14:31:37Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="quitDriver" is-config="true" duration-ms="73" started-at="2019-03-26T08:12:33Z" finished-at="2019-03-26T08:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

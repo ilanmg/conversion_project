@@ -20,7 +20,7 @@ public class SearchHeader {
 	 @FindBy(css="#txtSearch")
 	    private WebElement searchInput;
 
-	    @FindBy(xpath="//a[contains(text(),'Business (Category)')]")
+	 @FindBy(css="#autoCompleteBox > ul > li:nth-child(1) > a")
 	    private WebElement resultInput;
 
 	    @FindBy(className="artist-page-opener")
@@ -69,8 +69,8 @@ private void WebDriverWait(WebElement triggerInput2, int i) {
     }
 
    
-    public void clickSearchIcon() {
-    	this.searchInput.sendKeys("#txtSearch");
+    public void clickSearchIcon(String search) {
+    	this.searchInput.sendKeys("b");
        
     }
 

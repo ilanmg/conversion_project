@@ -21,6 +21,6 @@ public class LoginTest9 extends BaseTest{
         loginPage.enterUserCredentials("#logemail", "#logpassword");
         loginPage.loginBtn();
 
-        Assert.assertEquals(false, loginPage.getLicense());
+        Assert.assertEquals(true, loginPage.getLicense());
     }
-}
+} 

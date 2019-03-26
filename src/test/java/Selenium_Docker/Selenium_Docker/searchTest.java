@@ -19,11 +19,11 @@ public class searchTest  extends BaseTest {
     public void search() throws InterruptedException {
     	SearchHeader searchHeader = new SearchHeader(driver);
     	searchHeader.goTo();
-    	
-    	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        searchHeader.clickTriggerIcon();
-        searchHeader.clickSearchIcon();
-        searchHeader.clickFirstResult();
+    	searchHeader.clickTriggerIcon();
+        searchHeader.clickSearchIcon("#txtSearch");
+        
+       // Thread.sleep(7000);
+       // searchHeader.clickFirstResult();                   
       // Assert.assertEquals(true, searchHeader.ResultToGetArtlistPageIsDisplayed()); 
     }
 }

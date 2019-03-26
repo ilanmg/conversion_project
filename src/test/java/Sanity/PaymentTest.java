@@ -47,7 +47,7 @@ public class PaymentTest extends BaseTest {
         pricingModal.switchToMonthYearIframe();
       
        
-        pricingModal.setVisaMonth("04");
+        pricingModal.setVisaMonth("04"); 
         pricingModal.setVisaYear("23");
        driver.switchTo().defaultContent();
      
