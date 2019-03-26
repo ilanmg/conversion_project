@@ -1,4 +1,4 @@
-package Selenium_Docker.Selenium_Docker;
+package SearchHeader;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -45,6 +45,11 @@ public class SearchHeader {
 	    @FindBy(css = "#autoCompleteBox > ul > li > a")
 	    private WebElement ResultToGetArtlistPage;
     
+	    @FindBy(className = "start-btn topsign")
+	    private WebElement start;
+	    
+	    
+	    
     
     public SearchHeader(WebDriver driver) {
         this.driver = driver;
@@ -70,21 +75,28 @@ private void WebDriverWait(WebElement triggerInput2, int i) {
 
    
     public void clickSearchIcon(String search) {
-    	this.searchInput.sendKeys("b");
+    	this.searchInput.sendKeys("searchInput");
        
     }
 
     public void clickFirstResult() {
-    	WebDriverWait(resultInput, 10);
+    	WebDriverWait(resultInput, 20);
     	this.resultInput.click();
         
     }
 
     public void clickCloseResult() {
-    	WebDriverWait(closeResultInput, 10);
-    	this.closeResultInput.click();
+    	WebDriverWait(removeResultInput, 10);
+    	this.removeResultInput.click();
        
     }
+    public boolean StartNow() {
+        return isElementVisible(start); 
+    }
 
-	
+ private boolean isElementVisible(WebElement signInBtn) {
+ 	
+ 	return true;
+ }
+   
 }

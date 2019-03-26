@@ -25,7 +25,7 @@ public class PaymentTest extends BaseTest {
 	@Test(groups ={"Artlist"}, description = "this test should enter a valid card and should be succeeded")
     public void PaymentTestSuccess() throws InterruptedException {
 			
-		PricingModal pricingModal = new PricingModal(driver);  
+		PricingModal pricingModal = new PricingModal(driver);    
 		
 		pricingModal.goTo();
 	        
@@ -47,7 +47,7 @@ public class PaymentTest extends BaseTest {
         pricingModal.switchToMonthYearIframe();
       
        
-        pricingModal.setVisaMonth("04"); 
+        pricingModal.setVisaMonth("02"); 
         pricingModal.setVisaYear("23");
        driver.switchTo().defaultContent();
      

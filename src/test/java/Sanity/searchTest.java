@@ -1,9 +1,12 @@
-package Selenium_Docker.Selenium_Docker;
+package Sanity;
 
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import SearchHeader.SearchHeader;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -20,11 +23,13 @@ public class searchTest  extends BaseTest {
     	SearchHeader searchHeader = new SearchHeader(driver);
     	searchHeader.goTo();
     	searchHeader.clickTriggerIcon();
-        searchHeader.clickSearchIcon("#txtSearch");
-        
-       // Thread.sleep(7000);
-       // searchHeader.clickFirstResult();                   
-      // Assert.assertEquals(true, searchHeader.ResultToGetArtlistPageIsDisplayed()); 
+    	Thread.sleep(3000);
+        searchHeader.clickSearchIcon("b");
+        Thread.sleep(5000);
+       searchHeader.clickFirstResult(); 
+       Thread.sleep(3000);
+       searchHeader.clickCloseResult();
+       Assert.assertEquals(true, searchHeader.StartNow()); 
     }
 }
 

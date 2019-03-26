@@ -16,7 +16,7 @@ public class LoginTest2 extends BaseTest{
         //driver.manage().window().maximize();
         loginPage.signInBtn();
         Thread.sleep(5000);
-        loginPage.enterUserCredentials("#logemail", "#logpassword");
+        loginPage.enterUserCredentials("Email", "password");
         loginPage.loginBtn();
 
         //Assert.assertEquals(true, siteHeader.getLicenseBtn());

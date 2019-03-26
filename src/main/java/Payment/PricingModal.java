@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PricingModal {
 
-	 private WebDriver driver;
+	   private WebDriver driver;
 	   private WebDriverWait wait;
 	   
 	@FindBy(id = "user-login-btn")
@@ -63,7 +63,7 @@ public class PricingModal {
     
     public PricingModal(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait (driver, 30);
+        this.wait = new WebDriverWait (driver, 30); 
          PageFactory.initElements(driver, this);
     }
 
@@ -73,7 +73,7 @@ public class PricingModal {
    }
 	
 	public void clickOnPricingBtn() {
-        this.clickPricingBtn.click();
+        this.clickPricingBtn.click(); 
     }
   
     
@@ -97,9 +97,11 @@ public class PricingModal {
 		
 		
 	}
+   
+   
     
     public void setVisaCardNumber(String cardNumber) {
-        this.cardHolderNumberinput.sendKeys("4263982640269299");
+       this.cardHolderNumberinput.sendKeys("cardNumber");
        
    }
 
