@@ -29,7 +29,7 @@ public class searchTest  extends BaseTest {
        searchHeader.clickFirstResult(); 
        Thread.sleep(3000);
        searchHeader.clickCloseResult();
-       Assert.assertEquals(false, searchHeader.StartNow()); 
+       Assert.assertEquals(false, searchHeader.StartNow()); dyjdty
     }
 }
 
