@@ -2,6 +2,9 @@ package Sanity;
 
 
 import LoginPages.LoginPage;
+import SearchHeader.SearchHeader;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
@@ -11,6 +14,7 @@ public class LoginTest5 extends BaseTest{
 
     @Test
     public void LoginTest() throws InterruptedException {
+    	SearchHeader searchHeader = new SearchHeader(driver);
         LoginPage loginPage = new LoginPage(driver);
         loginPage.goTo();
         //driver.manage().window().maximize();
@@ -19,7 +23,7 @@ public class LoginTest5 extends BaseTest{
         loginPage.enterUserCredentials("Email", "password");
         loginPage.loginBtn();
 
-        //Assert.assertEquals(true, siteHeader.getLicenseBtn());
+        Assert.assertEquals(true, searchHeader.StartNow());
 
     }
 }
