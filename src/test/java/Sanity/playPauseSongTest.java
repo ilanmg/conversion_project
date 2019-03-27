@@ -16,7 +16,7 @@ import PlaySongsFromHomepage.java.PlaySongsFromHomepage;
 import tests.BaseTest;
 
 
-public class playPauseSong extends BaseTest {
+public class playPauseSongTest extends BaseTest {
 
 
 

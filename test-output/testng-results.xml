@@ -1,384 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="8" ignored="0" total="10" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sanity" duration-ms="152356" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:17:06Z">
+  <suite name="Default suite" duration-ms="62610" started-at="2019-03-27T16:20:31Z" finished-at="2019-03-27T16:21:33Z">
     <groups>
-      <group name="Artlist">
-        <method signature="PaymentTest.PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@2038ae61]" name="PaymentTestSuccess" class="Sanity.PaymentTest"/>
-      </group> <!-- Artlist -->
     </groups>
-    <test name="Sanity6" duration-ms="12427" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:14:46Z">
-      <class name="Sanity.LoginTest6">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest6@5cb9f472]" name="setupDriver" is-config="true" duration-ms="1003" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:14:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest6@5cb9f472]" name="LoginTest" duration-ms="11341" started-at="2019-03-27T16:14:34Z" finished-at="2019-03-27T16:14:46Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest6.LoginTest(LoginTest6.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest6@5cb9f472]" name="quitDriver" is-config="true" duration-ms="66" started-at="2019-03-27T16:14:46Z" finished-at="2019-03-27T16:14:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest6 -->
-    </test> <!-- Sanity6 -->
-    <test name="Sanity4" duration-ms="23687" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:14:57Z">
-      <class name="Sanity.LoginTest4">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest4@1ce92674]" name="setupDriver" is-config="true" duration-ms="12883" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:14:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest4@1ce92674]" name="LoginTest" duration-ms="10730" started-at="2019-03-27T16:14:46Z" finished-at="2019-03-27T16:14:57Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest4.LoginTest(LoginTest4.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest4@1ce92674]" name="quitDriver" is-config="true" duration-ms="68" started-at="2019-03-27T16:14:57Z" finished-at="2019-03-27T16:14:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest4 -->
-    </test> <!-- Sanity4 -->
-    <test name="Sanity5" duration-ms="36235" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:15:10Z">
-      <class name="Sanity.LoginTest5">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest5@1e397ed7]" name="setupDriver" is-config="true" duration-ms="24146" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:14:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest5@1e397ed7]" name="LoginTest" duration-ms="11978" started-at="2019-03-27T16:14:58Z" finished-at="2019-03-27T16:15:10Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest5.LoginTest(LoginTest5.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest5@1e397ed7]" name="quitDriver" is-config="true" duration-ms="107" started-at="2019-03-27T16:15:10Z" finished-at="2019-03-27T16:15:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest5 -->
-    </test> <!-- Sanity5 -->
-    <test name="Sanity" duration-ms="48903" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:15:22Z">
-      <class name="Sanity.LoginTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="36681" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:15:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest@604ed9f0]" name="LoginTest" duration-ms="12110" started-at="2019-03-27T16:15:10Z" finished-at="2019-03-27T16:15:22Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest.LoginTest(LoginTest.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="109" started-at="2019-03-27T16:15:22Z" finished-at="2019-03-27T16:15:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest -->
-    </test> <!-- Sanity -->
-    <test name="Sanity3" duration-ms="61532" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:15:35Z">
-      <class name="Sanity.LoginTest3">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest3@6500df86]" name="setupDriver" is-config="true" duration-ms="49368" started-at="2019-03-27T16:14:33Z" finished-at="2019-03-27T16:15:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest3@6500df86]" name="LoginTest" duration-ms="12092" started-at="2019-03-27T16:15:23Z" finished-at="2019-03-27T16:15:35Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest3.LoginTest(LoginTest3.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest3@6500df86]" name="quitDriver" is-config="true" duration-ms="67" started-at="2019-03-27T16:15:35Z" finished-at="2019-03-27T16:15:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest3 -->
-    </test> <!-- Sanity3 -->
-    <test name="Sanity7" duration-ms="60611" started-at="2019-03-27T16:14:46Z" finished-at="2019-03-27T16:15:46Z">
-      <class name="Sanity.LoginTest7">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest7@5702b3b1]" name="setupDriver" is-config="true" duration-ms="49463" started-at="2019-03-27T16:14:46Z" finished-at="2019-03-27T16:15:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest7@5702b3b1]" name="LoginTest" duration-ms="11085" started-at="2019-03-27T16:15:35Z" finished-at="2019-03-27T16:15:46Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest7.LoginTest(LoginTest7.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest7@5702b3b1]" name="quitDriver" is-config="true" duration-ms="62" started-at="2019-03-27T16:15:46Z" finished-at="2019-03-27T16:15:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest7 -->
-    </test> <!-- Sanity7 -->
-    <test name="Sanity8" duration-ms="60839" started-at="2019-03-27T16:14:57Z" finished-at="2019-03-27T16:15:58Z">
-      <class name="Sanity.LoginTest8">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest8@6adede5]" name="setupDriver" is-config="true" duration-ms="49830" started-at="2019-03-27T16:14:57Z" finished-at="2019-03-27T16:15:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest8@6adede5]" name="LoginTest" duration-ms="10945" started-at="2019-03-27T16:15:47Z" finished-at="2019-03-27T16:15:58Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Sanity.LoginTest8.LoginTest(LoginTest8.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest8@6adede5]" name="quitDriver" is-config="true" duration-ms="63" started-at="2019-03-27T16:15:58Z" finished-at="2019-03-27T16:15:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.LoginTest8 -->
-    </test> <!-- Sanity8 -->
-    <test name="Sanity9" duration-ms="59371" started-at="2019-03-27T16:15:10Z" finished-at="2019-03-27T16:16:09Z">
+    <test name="Default test" duration-ms="62610" started-at="2019-03-27T16:20:31Z" finished-at="2019-03-27T16:21:33Z">
       <class name="Sanity.LoginTest9">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest9@148080bb]" name="setupDriver" is-config="true" duration-ms="48772" started-at="2019-03-27T16:15:10Z" finished-at="2019-03-27T16:15:58Z">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="setupDriver" is-config="true" duration-ms="49249" started-at="2019-03-27T16:20:31Z" finished-at="2019-03-27T16:21:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest9@148080bb]" name="LoginTest" duration-ms="10485" started-at="2019-03-27T16:15:58Z" finished-at="2019-03-27T16:16:09Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="LoginTest" duration-ms="13273" started-at="2019-03-27T16:21:20Z" finished-at="2019-03-27T16:21:33Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -405,56 +38,29 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest9@148080bb]" name="quitDriver" is-config="true" duration-ms="112" started-at="2019-03-27T16:16:09Z" finished-at="2019-03-27T16:16:09Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest9@604ed9f0]" name="quitDriver" is-config="true" duration-ms="72" started-at="2019-03-27T16:21:33Z" finished-at="2019-03-27T16:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- Sanity.LoginTest9 -->
-    </test> <!-- Sanity9 -->
-    <test name="Sanity10" duration-ms="63903" started-at="2019-03-27T16:15:22Z" finished-at="2019-03-27T16:16:26Z">
-      <class name="Sanity.PaymentTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.PaymentTest@2038ae61]" name="setupDriver" is-config="true" duration-ms="47219" started-at="2019-03-27T16:15:22Z" finished-at="2019-03-27T16:16:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@2038ae61]" name="PaymentTestSuccess" duration-ms="16621" started-at="2019-03-27T16:16:10Z" description="this test should enter a valid card and should be succeeded" finished-at="2019-03-27T16:16:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PaymentTestSuccess -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.PaymentTest@2038ae61]" name="quitDriver" is-config="true" duration-ms="62" started-at="2019-03-27T16:16:26Z" finished-at="2019-03-27T16:16:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.PaymentTest -->
-    </test> <!-- Sanity10 -->
-    <test name="Sanity11" duration-ms="90808" started-at="2019-03-27T16:15:35Z" finished-at="2019-03-27T16:17:06Z">
-      <class name="Sanity.playPauseSong">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.playPauseSong@3327bd23]" name="setupDriver" is-config="true" duration-ms="51762" started-at="2019-03-27T16:15:35Z" finished-at="2019-03-27T16:16:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="playPauseSong()[pri:0, instance:Sanity.playPauseSong@3327bd23]" name="playPauseSong" duration-ms="38941" started-at="2019-03-27T16:16:27Z" description="this test should play songs and pausing them" finished-at="2019-03-27T16:17:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- playPauseSong -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.playPauseSong@3327bd23]" name="quitDriver" is-config="true" duration-ms="104" started-at="2019-03-27T16:17:06Z" finished-at="2019-03-27T16:17:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.playPauseSong -->
-    </test> <!-- Sanity11 -->
-  </suite> <!-- Sanity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
