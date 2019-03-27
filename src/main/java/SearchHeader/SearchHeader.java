@@ -75,10 +75,11 @@ private void WebDriverWait(WebElement triggerInput2, int i) {
 
    
     public void clickSearchIcon(String search) {
-    	this.searchInput.sendKeys("searchInput");
+    	this.searchInput.sendKeys (search);
        
     }
-
+    
+      
     public void clickFirstResult() {
     	WebDriverWait(resultInput, 20);
     	this.resultInput.click();
@@ -98,5 +99,17 @@ private void WebDriverWait(WebElement triggerInput2, int i) {
  	
  	return true;
  }
-   
+
+public static void clickResultToGetArtlistPage() {
+	// TODO Auto-generated method stub
+	
+}
+
+public static Object ResultToGetArtlistPageIsDisplayed() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+
+
 }

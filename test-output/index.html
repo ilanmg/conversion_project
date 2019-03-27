@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse-658945028\testng-customsuite.xml</span>
+                    <span>C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse-966766132\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -128,33 +128,14 @@
                   <a name="search">
                   </a> <!-- search -->
                   <span class="method-name">search</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#autoCompleteBox &gt; ul &gt; li:nth-child(1) &gt; a&quot;}
-  (Session info: chrome=73.0.3683.75)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;
-System info: host: &apos;DESKTOP-KMFJ2QA&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:34431}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=/tmp/.com.google.Chrome.GKefRF}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=78d482934edf65a6587d0480823c45c9, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 78d482934edf65a6587d0480823c45c9
-*** Element info: {Using=css selector, value=#autoCompleteBox &gt; ul &gt; li:nth-child(1) &gt; a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at SearchHeader.SearchHeader.clickFirstResult(SearchHeader.java:84)
-	at Sanity.searchTest.search(searchTest.java:29)
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at org.testng.Assert.assertEquals(Assert.java:578)
+	at Sanity.searchTest.search(searchTest.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -191,7 +172,7 @@ Session ID: 78d482934edf65a6587d0480823c45c9
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse-658945028\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse-966766132\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -252,12 +233,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'search')
 data.setCell(0, 2, 'Sanity.searchTest')
-data.setCell(0, 3, 13994);
+data.setCell(0, 3, 17934);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -292,11 +273,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">search</span>
-                <span class="method-start">999 ms</span>
+                <span class="method-start">1040 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">14999 ms</span>
+                <span class="method-start">18977 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
