@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19040" started-at="2019-03-27T14:44:14Z" finished-at="2019-03-27T14:44:33Z">
+  <suite name="Default suite" duration-ms="91089" started-at="2019-03-27T14:47:18Z" finished-at="2019-03-27T14:48:49Z">
     <groups>
       <group name="sanity">
         <method signature="searchTest.search()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="search" class="Sanity.searchTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Default test" duration-ms="19040" started-at="2019-03-27T14:44:14Z" finished-at="2019-03-27T14:44:33Z">
+    <test name="Default test" duration-ms="91089" started-at="2019-03-27T14:47:18Z" finished-at="2019-03-27T14:48:49Z">
       <class name="Sanity.searchTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="1029" started-at="2019-03-27T14:44:14Z" finished-at="2019-03-27T14:44:15Z">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="70951" started-at="2019-03-27T14:47:18Z" finished-at="2019-03-27T14:48:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="FAIL" signature="search()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="search" duration-ms="17934" started-at="2019-03-27T14:44:15Z" description="the script is searching for a letter, then picks up the first result" finished-at="2019-03-27T14:44:33Z">
+        <test-method status="FAIL" signature="search()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="search" duration-ms="20061" started-at="2019-03-27T14:48:29Z" description="the script is searching for a letter, then picks up the first result" finished-at="2019-03-27T14:48:49Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -59,7 +59,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="61" started-at="2019-03-27T14:44:33Z" finished-at="2019-03-27T14:44:33Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.searchTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="64" started-at="2019-03-27T14:48:49Z" finished-at="2019-03-27T14:48:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
