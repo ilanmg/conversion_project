@@ -41,27 +41,18 @@
             <class name="Sanity.LoginTest9" />
         </classes>
     </test>
+    
     <test name="Sanity10">
-        <classes>
-            <class name="Sanity.MainMenueGenreAcousticTest" />
-        </classes>
-    </test>
-     <test name="Sanity11">
-        <classes>
-            <class name="Sanity.mainMenuGenreHolidayTest" />
-        </classes>
-    </test>
-    <test name="Sanity12">
         <classes>
             <class name="Sanity.PaymentTest" />
         </classes>
     </test>
-    <test name="Sanity13">
+    <test name="Sanity11">
         <classes>
             <class name="Sanity.playPauseSongTest" />
         </classes>
     </test>
-    <test name="Sanity14">
+    <test name="Sanity12">
         <classes>
             <class name="Sanity.searchTest" />
         </classes>
