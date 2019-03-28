@@ -36,11 +36,7 @@
             <class name="Sanity.LoginTest8" />
         </classes>
     </test>
-     <test name="Sanity9">
-        <classes>
-            <class name="Sanity.LoginTest9" />
-        </classes>
-    </test>
+    
     <test name="Sanity10">
         <classes>
             <class name="Sanity.MainMenueGenreAcousticTest" />
