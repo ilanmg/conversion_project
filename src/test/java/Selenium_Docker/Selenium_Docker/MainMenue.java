@@ -1,5 +1,5 @@
 
-package MainMenue;
+package Selenium_Docker.Selenium_Docker;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

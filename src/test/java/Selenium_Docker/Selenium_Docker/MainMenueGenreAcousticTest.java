@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import MainMenue.MainMenue;
 import org.openqa.selenium.support.FindBy;
 
 import tests.BaseTest;
