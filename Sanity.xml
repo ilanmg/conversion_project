@@ -131,27 +131,97 @@
             <class name="Sanity.MainMenueGenreWorldTest" />
         </classes>
     </test>
-     <test name="Sanity28">
+    <test name="Sanity28">
         <classes>
-            <class name="Sanity.mainMenuGenreElectronicTest" />
+            <class name="Sanity.MainMenueMoodAngryTest" />
         </classes>
     </test>
-     <test name="Sanity29">
+    <test name="Sanity29">
         <classes>
-            <class name="Sanity.mainMenuGenreHolidayTest" />
+            <class name="Sanity.MainMenueMoodCarefreeTest" />
         </classes>
     </test>
     <test name="Sanity30">
         <classes>
-            <class name="Sanity.PaymentTest" />
+            <class name="Sanity.MainMenueMoodDramaticTest" />
         </classes>
     </test>
     <test name="Sanity31">
         <classes>
-            <class name="Sanity.playPauseSongTest" />
+            <class name="Sanity.MainMenueMoodHappyTest" />
         </classes>
     </test>
     <test name="Sanity32">
+        <classes>
+            <class name="Sanity.MainMenueMoodHopefulTest" />
+        </classes>
+    </test>
+    <test name="Sanity33">
+        <classes>
+            <class name="Sanity.MainMenueMoodLoveTest" />
+        </classes>
+    </test>
+    <test name="Sanity34">
+        <classes>
+            <class name="Sanity.MainMenueMoodPeacefulTest" />
+        </classes>
+    </test>
+    <test name="Sanity35">
+        <classes>
+            <class name="Sanity.MainMenueMoodPlayfulTest" />
+        </classes>
+    </test>
+    <test name="Sanity36">
+        <classes>
+            <class name="Sanity.MainMenueMoodPowerfulTest" />
+        </classes>
+    </test>
+    <test name="Sanity37">
+        <classes>
+            <class name="Sanity.MainMenueMoodSadTest" />
+        </classes>
+    </test>
+     <test name="Sanity38">
+        <classes>
+            <class name="Sanity.MainMenueMoodScaryAndDarkTest" />
+        </classes>
+    </test>
+    <test name="Sanity39">
+        <classes>
+            <class name="Sanity.MainMenueMoodSeriousTest" />
+        </classes>
+    </test>
+    <test name="Sanity40">
+        <classes>
+            <class name="Sanity.MainMenueMoodTenseTest" />
+        </classes>
+    </test>
+     <test name="Sanity41">
+        <classes>
+            <class name="Sanity.MainMenueMoodUpliftingTest" />
+        </classes>
+    </test>
+     <test name="Sanity42">
+        <classes>
+            <class name="Sanity.mainMenuGenreElectronicTest" />
+        </classes>
+    </test>
+     <test name="Sanity43">
+        <classes>
+            <class name="Sanity.mainMenuGenreHolidayTest" />
+        </classes>
+    </test>
+    <test name="Sanity44">
+        <classes>
+            <class name="Sanity.PaymentTest" />
+        </classes>
+    </test>
+    <test name="Sanity45">
+        <classes>
+            <class name="Sanity.playPauseSongTest" />
+        </classes>
+    </test>
+    <test name="Sanity46">
         <classes>
             <class name="Sanity.searchTest" />
         </classes>

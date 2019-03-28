@@ -20,7 +20,7 @@ public class LoginTest4 extends BaseTest{
         //driver.manage().window().maximize();
         loginPage.signInBtn();
         Thread.sleep(5000);
-        loginPage.enterUserCredentials("Email", "password");
+        loginPage.enterUserCredentials("ilanmg@artlist.io", "Tomido1212*");
         loginPage.loginBtn();
 
         Assert.assertEquals(true, searchHeader.StartNow());

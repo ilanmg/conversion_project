@@ -3,12 +3,11 @@ package Sanity;
 
 import LoginPages.LoginPage;
 import SearchHeader.SearchHeader;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 
-public class LoginTest8 extends BaseTest{
+public class LoginTest8 extends BaseTest{ 
 
 
 
@@ -20,7 +19,7 @@ public class LoginTest8 extends BaseTest{
         //driver.manage().window().maximize();
         loginPage.signInBtn();
         Thread.sleep(5000);
-        loginPage.enterUserCredentials("Email", "password");
+        loginPage.enterUserCredentials("ilanmg@artlist.io", "Tomido1212*");
         loginPage.loginBtn();
 
         Assert.assertEquals(true, searchHeader.StartNow());

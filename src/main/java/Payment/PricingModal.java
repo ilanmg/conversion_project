@@ -73,17 +73,24 @@ public class PricingModal {
    }
 	
 	public void clickOnPricingBtn() {
-        this.clickPricingBtn.click(); 
+		WebDriverWait(clickPricingBtn, 10);
+        this.clickPricingBtn.click();  
     }
   
     
    
+	private void WebDriverWait(WebElement clickPricingBtn2, int i) {
+				
+	}
+
 	public void clickSubscribeNow() {
+		WebDriverWait(subscribeNowBtn, 10);
 		this.subscribeNowBtn.click();
     }
     
    
 	public void clickVisaRadioBtn() {
+		WebDriverWait(visaRadioBtn, 10);
         this.visaRadioBtn.click();
     }
 	

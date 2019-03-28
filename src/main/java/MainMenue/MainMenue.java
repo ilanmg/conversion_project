@@ -283,6 +283,11 @@ public class MainMenue {
 	  this.SadInput.click();
       
   }
+  public void clickOnMainMenueScaryAndDark() {
+	  WebDriverWait(ScaryAndDarkInput, 10);
+	  this.ScaryAndDarkInput.click();
+      
+  }
 
 
   //videoTheme
@@ -494,5 +499,10 @@ public class MainMenue {
         this.mainMenuGenreBluesInput.click();
        
     }
+
+	public void clickOnmainMenuMood() {
+		
+		
+	}
 
  }

@@ -26,7 +26,7 @@ public class MainMenueGenreChildrenTest extends BaseTest {
     	mainMenue.goTo();
         mainMenue.clickOnmainMenuGenre();
         Thread.sleep(2000);
-        mainMenue.clickOnmainMenuGenreAcoustic();
+        mainMenue.clickOnmainMenuGenreAcoustic(); 
         Thread.sleep(2000);
         mainMenue.closeMainMenueInput();
        

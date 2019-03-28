@@ -16,7 +16,7 @@ import tests.BaseTest;
 
 
 
-public class MainMenueGenreAcousticTest extends BaseTest {
+public class MainMenueGenreAcousticTest extends BaseTest { 
 
 	
     

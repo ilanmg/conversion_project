@@ -3,7 +3,6 @@ package Sanity;
 
 import LoginPages.LoginPage;
 import SearchHeader.SearchHeader;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.BaseTest;
@@ -23,7 +22,7 @@ public class LoginTest3 extends BaseTest{
         loginPage.enterUserCredentials("Email", "password");
         loginPage.loginBtn();
 
-        Assert.assertEquals(true, searchHeader.StartNow());
+        Assert.assertEquals(true, searchHeader.StartNow()); 
 
     }
 }
