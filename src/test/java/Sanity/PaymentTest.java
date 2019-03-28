@@ -33,13 +33,13 @@ public class PaymentTest extends BaseTest {
         Thread.sleep(5000);
         pricingModal.clickSubscribeNow();
         
-        driver.manage().window().maximize();
+        driver.manage().window().maximize(); 
         
         Thread.sleep(2000);
         pricingModal.clickVisaRadioBtn();
         
         pricingModal.switchToVisaIframe();
-       
+        Thread.sleep(2000);
         pricingModal.setVisaCardNumber("4263982640269299");
         driver.switchTo().defaultContent();
         

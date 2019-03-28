@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14778" started-at="2019-03-28T08:32:31Z" finished-at="2019-03-28T08:32:46Z">
+  <suite name="Default suite" duration-ms="19885" started-at="2019-03-28T09:01:41Z" finished-at="2019-03-28T09:02:00Z">
     <groups>
       <group name="Artlist">
-        <method signature="MainMenueGenreChildrenTest.MainMenueGenreChildren()[pri:0, instance:Sanity.MainMenueGenreChildrenTest@604ed9f0]" name="MainMenueGenreChildren" class="Sanity.MainMenueGenreChildrenTest"/>
+        <method signature="PaymentTest.PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" class="Sanity.PaymentTest"/>
       </group> <!-- Artlist -->
     </groups>
-    <test name="Default test" duration-ms="14778" started-at="2019-03-28T08:32:31Z" finished-at="2019-03-28T08:32:46Z">
-      <class name="Sanity.MainMenueGenreChildrenTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.MainMenueGenreChildrenTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="1147" started-at="2019-03-28T08:32:31Z" finished-at="2019-03-28T08:32:32Z">
+    <test name="Default test" duration-ms="19885" started-at="2019-03-28T09:01:41Z" finished-at="2019-03-28T09:02:00Z">
+      <class name="Sanity.PaymentTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="1000" started-at="2019-03-28T09:01:41Z" finished-at="2019-03-28T09:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="MainMenueGenreChildren()[pri:0, instance:Sanity.MainMenueGenreChildrenTest@604ed9f0]" name="MainMenueGenreChildren" duration-ms="13555" started-at="2019-03-28T08:32:32Z" description="the script should click main menue Genre Acoustic" finished-at="2019-03-28T08:32:45Z">
+        <test-method status="PASS" signature="PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" duration-ms="18757" started-at="2019-03-28T09:01:42Z" description="this test should enter a valid card and should be succeeded" finished-at="2019-03-28T09:02:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MainMenueGenreChildren -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.MainMenueGenreChildrenTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="62" started-at="2019-03-28T08:32:45Z" finished-at="2019-03-28T08:32:46Z">
+        </test-method> <!-- PaymentTestSuccess -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="107" started-at="2019-03-28T09:02:00Z" finished-at="2019-03-28T09:02:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.MainMenueGenreChildrenTest -->
+      </class> <!-- Sanity.PaymentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
