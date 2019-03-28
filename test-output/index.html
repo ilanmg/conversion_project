@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse--891343434\testng-customsuite.xml</span>
+                    <span>C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse--1068146417\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Sanity.LoginTest9" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Sanity.MainMenueGenreAcousticTest" hash-for-method="MainMenueGenreAcoustic">MainMenueGenreAcoustic</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,22 +120,41 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Sanity.LoginTest9</span>
+              <span class="class-name">Sanity.MainMenueGenreAcousticTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTest">
-                  </a> <!-- LoginTest -->
-                  <span class="method-name">LoginTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:568)
-	at org.testng.Assert.assertEquals(Assert.java:578)
-	at Sanity.LoginTest9.LoginTest(LoginTest9.java:26)
+                  <a name="MainMenueGenreAcoustic">
+                  </a> <!-- MainMenueGenreAcoustic -->
+                  <span class="method-name">MainMenueGenreAcoustic</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.menu &gt; .Genre &gt; .toggle-sub&quot;}
+  (Session info: chrome=73.0.3683.75)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;
+System info: host: &apos;DESKTOP-KMFJ2QA&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:35837}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=/tmp/.com.google.Chrome.sBGHhk}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webdriver.remote.sessionid=ab6acbf5811c74b4459dc8f8202965a5, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab6acbf5811c74b4459dc8f8202965a5
+*** Element info: {Using=css selector, value=.menu &gt; .Genre &gt; .toggle-sub}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at MainMenue.MainMenue.clickOnmainMenuGenre(MainMenue.java:428)
+	at Sanity.MainMenueGenreAcousticTest.MainMenueGenreAcoustic(MainMenueGenreAcousticTest.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -163,6 +182,8 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
 </div> <!-- stack-trace -->
+                  <em>
+(the script should click main menue Genre Acoustic)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,7 +191,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse--891343434\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Ilan Amgar\AppData\Local\Temp\testng-eclipse--1068146417\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -179,7 +200,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Sanity.LoginTest9&quot;/&gt;
+      &lt;class name=&quot;Sanity.MainMenueGenreAcousticTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -203,6 +224,14 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Artlist</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">MainMenueGenreAcoustic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -221,14 +250,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
-data.setCell(0, 2, 'Sanity.LoginTest9')
-data.setCell(0, 3, 13273);
+data.setCell(0, 1, 'MainMenueGenreAcoustic')
+data.setCell(0, 2, 'Sanity.MainMenueGenreAcousticTest')
+data.setCell(0, 3, 56);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 56 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -254,7 +283,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Sanity.LoginTest9</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Sanity.MainMenueGenreAcousticTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setupDriver</span>
                 <span class="method-start">0 ms</span>
@@ -262,12 +291,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">LoginTest</span>
-                <span class="method-start">49260 ms</span>
+                <span class="method-name">MainMenueGenreAcoustic</span>
+                <span class="method-start">922 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">62535 ms</span>
+                <span class="method-start">984 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

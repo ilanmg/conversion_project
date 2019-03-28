@@ -39,7 +39,7 @@ public class LoginPage {
 
    public  void goTo() {
         this.driver.get("https://artlist.io");
-        this.wait.until(ExpectedConditions.visibilityOf(this.signInBtn)); 
+        this.wait.until(ExpectedConditions.visibilityOf(this.signInBtn));  
    }
     public boolean signInBtn() {
         this.signInBtn.click();
