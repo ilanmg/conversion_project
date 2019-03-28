@@ -41,18 +41,117 @@
             <class name="Sanity.LoginTest9" />
         </classes>
     </test>
-    
     <test name="Sanity10">
+        <classes>
+            <class name="Sanity.MainMenueGenreAcousticTest" />
+        </classes>
+    </test>
+     <test name="Sanity11">
+        <classes>
+            <class name="Sanity.MainMenueGenreAmbientTest" />
+        </classes>
+    </test>
+    <test name="Sanity12">
+        <classes>
+            <class name="Sanity.MainMenueGenreBluesTest" />
+        </classes>
+    </test>
+    <test name="Sanity13">
+        <classes>
+            <class name="Sanity.MainMenueGenreChildrenTest" />
+        </classes>
+    </test>
+    <test name="Sanity14">
+        <classes>
+            <class name="Sanity.MainMenueGenreCinematicTest" />
+        </classes>
+    </test>
+    <test name="Sanity15">
+        <classes>
+            <class name="Sanity.MainMenueGenreClassicalTest" />
+        </classes>
+    </test>
+     <test name="Sanity16">
+        <classes>
+            <class name="Sanity.MainMenueGenreCountryTest" />
+        </classes>
+    </test>
+    <test name="Sanity17">
+        <classes>
+            <class name="Sanity.MainMenueGenreFolkTest" />
+        </classes>
+    </test>
+    <test name="Sanity18">
+        <classes>
+            <class name="Sanity.MainMenueGenreFunkyAndGrooveTest" />
+        </classes>
+    </test>
+    <test name="Sanity19">
+        <classes>
+            <class name="Sanity.MainMenueGenreHipHopTest" />
+        </classes>
+    </test>
+     <test name="Sanity20">
+        <classes>
+            <class name="Sanity.MainMenueGenreIndieTest" />
+        </classes>
+    </test>
+    <test name="Sanity21">
+        <classes>
+            <class name="Sanity.MainMenueGenreJazzTest" />
+        </classes>
+    </test>
+    <test name="Sanity22">
+        <classes>
+            <class name="Sanity.MainMenueGenrePopTest" />
+        </classes>
+    </test>
+     <test name="Sanity23">
+        <classes>
+            <class name="Sanity.MainMenueGenreReggaeTest" />
+        </classes>
+    </test>
+     <test name="Sanity24">
+        <classes>
+            <class name="Sanity.MainMenueGenreRockTest" />
+        </classes>
+    </test>
+    <test name="Sanity25">
+        <classes>
+            <class name="Sanity.MainMenueGenreSingerSongwriterTest" />
+        </classes>
+    </test>
+    <test name="Sanity26">
+        <classes>
+            <class name="Sanity.MainMenueGenreSoulAndRnBTest" />
+        </classes>
+    </test>
+    <test name="Sanity27">
+        <classes>
+            <class name="Sanity.MainMenueGenreWorldTest" />
+        </classes>
+    </test>
+     <test name="Sanity28">
+        <classes>
+            <class name="Sanity.mainMenuGenreElectronicTest" />
+        </classes>
+    </test>
+     <test name="Sanity29">
+        <classes>
+            <class name="Sanity.mainMenuGenreHolidayTest" />
+        </classes>
+    </test>
+    <test name="Sanity30">
         <classes>
             <class name="Sanity.PaymentTest" />
         </classes>
     </test>
-    <test name="Sanity11">
+    <test name="Sanity31">
         <classes>
             <class name="Sanity.playPauseSongTest" />
         </classes>
     </test>
-    <test name="Sanity12">
+    <test name="Sanity32">
         <classes>
             <class name="Sanity.searchTest" />
         </classes>

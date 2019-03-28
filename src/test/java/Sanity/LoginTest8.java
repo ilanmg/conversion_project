@@ -23,7 +23,7 @@ public class LoginTest8 extends BaseTest{
         loginPage.enterUserCredentials("Email", "password");
         loginPage.loginBtn();
 
-        Assert.assertEquals(false, searchHeader.StartNow());
+        Assert.assertEquals(true, searchHeader.StartNow());
 
     }
 }

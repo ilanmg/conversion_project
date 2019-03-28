@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sanity.MainMenueGenreAcousticTest">
+      <class name="Sanity.mainMenuGenreHolidayTest">
         <methods>
-          <include name="MainMenueGenreAcoustic"/>
+          <include name="mainMenuGenreHoliday"/>
           <include name="setupDriver"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- Sanity.MainMenueGenreAcousticTest -->
+      </class> <!-- Sanity.mainMenuGenreHolidayTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
