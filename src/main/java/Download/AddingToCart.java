@@ -24,7 +24,7 @@ public class AddingToCart {
     @FindBy(css= "#btnlogin")
     private WebElement loginBtn;
 
-    @FindBy(css = "#song_11609 a.add-cart")
+    @FindBy(xpath = "//div[@id='song_11609']//i[@title='Add to Cart']")
     private WebElement addToCartInput;
 
     @FindBy(css = "#top-bar > div.row.top-row > div > div > div > div.login-side > div > div.carttop > a > i")
@@ -32,10 +32,7 @@ public class AddingToCart {
    
     
     
-    
-public AddingToCart(WebDriver driver2) {
-		
-	}
+
 
 private void WebDriverWait(WebElement signInBtn2, int i) {
 		
