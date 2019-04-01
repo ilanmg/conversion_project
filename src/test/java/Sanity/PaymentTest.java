@@ -30,7 +30,7 @@ public class PaymentTest extends BaseTest {
 		pricingModal.goTo();
 	        
 		pricingModal.clickOnPricingBtn();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         pricingModal.clickSubscribeNow();
          
         driver.manage().window().maximize();  
@@ -39,7 +39,7 @@ public class PaymentTest extends BaseTest {
         pricingModal.clickVisaRadioBtn();
         
         pricingModal.switchToVisaIframe();
-        Thread.sleep(2000);
+        
         pricingModal.setVisaCardNumber("4263982640269299");
         driver.switchTo().defaultContent();
         
@@ -60,7 +60,7 @@ public class PaymentTest extends BaseTest {
        
        pricingModal.setCardHolderName("ilan amgar");
         
-        Thread.sleep(3000);
+ 
              
         pricingModal.clickLastStepToSubscribe();
       
