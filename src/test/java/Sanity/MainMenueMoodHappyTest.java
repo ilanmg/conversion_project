@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import MainMenue.MainMenue;
+import SearchHeader.SearchHeader;
 
 import org.openqa.selenium.support.FindBy;
 
@@ -23,13 +24,14 @@ public class MainMenueMoodHappyTest extends BaseTest {
     @Test(groups ={"Artlist"}, description= "the script should click main menue Mood Happy")
     public void MainMenueMoodHappy() throws InterruptedException {
     	MainMenue mainMenue = new MainMenue(driver);
+    	SearchHeader searchHeader = new SearchHeader(driver);
     	mainMenue.goTo();
         mainMenue.clickOnMainMenueMood();
         Thread.sleep(5000);
         mainMenue.clickOnMainMenueHappy();
         Thread.sleep(3000);
         mainMenue.closeMainMenueInput();
-       
+        Assert.assertEquals(true, searchHeader.StartNow());
     }
     
     

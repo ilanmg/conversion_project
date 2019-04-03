@@ -1,28 +1,1957 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="44" ignored="88" total="133" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12190" started-at="2019-04-01T14:56:19Z" finished-at="2019-04-01T14:56:32Z">
+  <suite name="Default suite" duration-ms="39308" started-at="2019-04-03T09:31:41Z" finished-at="2019-04-03T09:32:21Z">
     <groups>
       <group name="Artlist">
-        <method signature="PaymentTest.PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" class="Sanity.PaymentTest"/>
+        <method signature="MainMenueGenreAcousticTest.MainMenueGenreAcoustic()[pri:0, instance:Sanity.MainMenueGenreAcousticTest@59494225]" name="MainMenueGenreAcoustic" class="Sanity.MainMenueGenreAcousticTest"/>
+        <method signature="MainMenueGenreAmbientTest.MainMenueGenreAmbient()[pri:0, instance:Sanity.MainMenueGenreAmbientTest@49993335]" name="MainMenueGenreAmbient" class="Sanity.MainMenueGenreAmbientTest"/>
+        <method signature="MainMenueGenreBluesTest.MainMenueGenreBlues()[pri:0, instance:Sanity.MainMenueGenreBluesTest@73846619]" name="MainMenueGenreBlues" class="Sanity.MainMenueGenreBluesTest"/>
+        <method signature="MainMenueGenreChildrenTest.MainMenueGenreChildren()[pri:0, instance:Sanity.MainMenueGenreChildrenTest@ff5b51f]" name="MainMenueGenreChildren" class="Sanity.MainMenueGenreChildrenTest"/>
+        <method signature="MainMenueGenreCinematicTest.MainMenueGenreCinematic()[pri:0, instance:Sanity.MainMenueGenreCinematicTest@6adede5]" name="MainMenueGenreCinematic" class="Sanity.MainMenueGenreCinematicTest"/>
+        <method signature="MainMenueGenreClassicalTest.MainMenueGenreClassical()[pri:0, instance:Sanity.MainMenueGenreClassicalTest@2f686d1f]" name="MainMenueGenreClassical" class="Sanity.MainMenueGenreClassicalTest"/>
+        <method signature="MainMenueGenreCountryTest.MainMenueGenreCountry()[pri:0, instance:Sanity.MainMenueGenreCountryTest@73ad2d6]" name="MainMenueGenreCountry" class="Sanity.MainMenueGenreCountryTest"/>
+        <method signature="MainMenueGenreFolkTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreFolkTest@6fd02e5]" name="mainMenuGenreHoliday" class="Sanity.MainMenueGenreFolkTest"/>
+        <method signature="MainMenueGenreFunkyAndGrooveTest.MainMenueGenreFunkyAndGroove()[pri:0, instance:Sanity.MainMenueGenreFunkyAndGrooveTest@7085bdee]" name="MainMenueGenreFunkyAndGroove" class="Sanity.MainMenueGenreFunkyAndGrooveTest"/>
+        <method signature="MainMenueGenreHipHopTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreHipHopTest@69ea3742]" name="mainMenuGenreHoliday" class="Sanity.MainMenueGenreHipHopTest"/>
+        <method signature="MainMenueGenreIndieTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreIndieTest@5702b3b1]" name="mainMenuGenreHoliday" class="Sanity.MainMenueGenreIndieTest"/>
+        <method signature="MainMenueGenreJazzTest.MainMenueGenreJazz()[pri:0, instance:Sanity.MainMenueGenreJazzTest@20322d26]" name="MainMenueGenreJazz" class="Sanity.MainMenueGenreJazzTest"/>
+        <method signature="MainMenueGenrePopTest.MainMenueGenrePop()[pri:0, instance:Sanity.MainMenueGenrePopTest@1ed4004b]" name="MainMenueGenrePop" class="Sanity.MainMenueGenrePopTest"/>
+        <method signature="MainMenueGenreReggaeTest.MainMenueGenreReggae()[pri:0, instance:Sanity.MainMenueGenreReggaeTest@1e397ed7]" name="MainMenueGenreReggae" class="Sanity.MainMenueGenreReggaeTest"/>
+        <method signature="MainMenueGenreRockTest.MainMenueGenreRock()[pri:0, instance:Sanity.MainMenueGenreRockTest@192b07fd]" name="MainMenueGenreRock" class="Sanity.MainMenueGenreRockTest"/>
+        <method signature="MainMenueGenreSingerSongwriterTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreSingerSongwriterTest@1ce92674]" name="mainMenuGenreHoliday" class="Sanity.MainMenueGenreSingerSongwriterTest"/>
+        <method signature="MainMenueGenreSoulAndRnBTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreSoulAndRnBTest@5025a98f]" name="mainMenuGenreHoliday" class="Sanity.MainMenueGenreSoulAndRnBTest"/>
+        <method signature="MainMenueGenreWorldTest.MainMenueGenreWorld()[pri:0, instance:Sanity.MainMenueGenreWorldTest@3159c4b8]" name="MainMenueGenreWorld" class="Sanity.MainMenueGenreWorldTest"/>
+        <method signature="MainMenueMoodAngryTest.MainMenueMoodAngry()[pri:0, instance:Sanity.MainMenueMoodAngryTest@4bec1f0c]" name="MainMenueMoodAngry" class="Sanity.MainMenueMoodAngryTest"/>
+        <method signature="MainMenueMoodCarefreeTest.MainMenueMoodCarefree()[pri:0, instance:Sanity.MainMenueMoodCarefreeTest@4566e5bd]" name="MainMenueMoodCarefree" class="Sanity.MainMenueMoodCarefreeTest"/>
+        <method signature="MainMenueMoodDramaticTest.MainMenueMoodDramatic()[pri:0, instance:Sanity.MainMenueMoodDramaticTest@56ef9176]" name="MainMenueMoodDramatic" class="Sanity.MainMenueMoodDramaticTest"/>
+        <method signature="MainMenueMoodHappyTest.MainMenueMoodHappy()[pri:0, instance:Sanity.MainMenueMoodHappyTest@5700d6b1]" name="MainMenueMoodHappy" class="Sanity.MainMenueMoodHappyTest"/>
+        <method signature="MainMenueMoodHopefulTest.MainMenueMoodHopeful()[pri:0, instance:Sanity.MainMenueMoodHopefulTest@56ac3a89]" name="MainMenueMoodHopeful" class="Sanity.MainMenueMoodHopefulTest"/>
+        <method signature="MainMenueMoodLoveTest.MainMenueMoodLove()[pri:0, instance:Sanity.MainMenueMoodLoveTest@5f2108b5]" name="MainMenueMoodLove" class="Sanity.MainMenueMoodLoveTest"/>
+        <method signature="MainMenueMoodPeacefulTest.MainMenueMoodPeaceful()[pri:0, instance:Sanity.MainMenueMoodPeacefulTest@e45f292]" name="MainMenueMoodPeaceful" class="Sanity.MainMenueMoodPeacefulTest"/>
+        <method signature="MainMenueMoodPlayfulTest.MainMenueMoodPlayful()[pri:0, instance:Sanity.MainMenueMoodPlayfulTest@4b952a2d]" name="MainMenueMoodPlayful" class="Sanity.MainMenueMoodPlayfulTest"/>
+        <method signature="MainMenueMoodPowerfulTest.MainMenueMoodPowerful()[pri:0, instance:Sanity.MainMenueMoodPowerfulTest@5bcab519]" name="MainMenueMoodPowerful" class="Sanity.MainMenueMoodPowerfulTest"/>
+        <method signature="MainMenueMoodSadTest.MainMenueMoodSad()[pri:0, instance:Sanity.MainMenueMoodSadTest@3fee9989]" name="MainMenueMoodSad" class="Sanity.MainMenueMoodSadTest"/>
+        <method signature="MainMenueMoodScaryAndDarkTest.MainMenueMoodScaryAndDark()[pri:0, instance:Sanity.MainMenueMoodScaryAndDarkTest@5649fd9b]" name="MainMenueMoodScaryAndDark" class="Sanity.MainMenueMoodScaryAndDarkTest"/>
+        <method signature="MainMenueMoodSeriousTest.MainMenueMoodSerious()[pri:0, instance:Sanity.MainMenueMoodSeriousTest@25bbe1b6]" name="MainMenueMoodSerious" class="Sanity.MainMenueMoodSeriousTest"/>
+        <method signature="MainMenueMoodTenseTest.MainMenueMoodTense()[pri:0, instance:Sanity.MainMenueMoodTenseTest@29ca901e]" name="MainMenueMoodTense" class="Sanity.MainMenueMoodTenseTest"/>
+        <method signature="MainMenueMoodUpliftingTest.MainMenueMoodUplifting()[pri:0, instance:Sanity.MainMenueMoodUpliftingTest@72d818d1]" name="MainMenueMoodUplifting" class="Sanity.MainMenueMoodUpliftingTest"/>
+        <method signature="PaymentTest.PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@13805618]" name="PaymentTestSuccess" class="Sanity.PaymentTest"/>
+        <method signature="mainMenuGenreElectronicTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.mainMenuGenreElectronicTest@64bfbc86]" name="mainMenuGenreHoliday" class="Sanity.mainMenuGenreElectronicTest"/>
+        <method signature="mainMenuGenreHolidayTest.mainMenuGenreHoliday()[pri:0, instance:Sanity.mainMenuGenreHolidayTest@5cb9f472]" name="mainMenuGenreHoliday" class="Sanity.mainMenuGenreHolidayTest"/>
       </group> <!-- Artlist -->
+      <group name="sanity">
+        <method signature="searchTest.search()[pri:0, instance:Sanity.searchTest@2d928643]" name="search" class="Sanity.searchTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="Default test" duration-ms="12190" started-at="2019-04-01T14:56:19Z" finished-at="2019-04-01T14:56:32Z">
-      <class name="Sanity.PaymentTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="999" started-at="2019-04-01T14:56:19Z" finished-at="2019-04-01T14:56:20Z">
+    <test name="Default test" duration-ms="39308" started-at="2019-04-03T09:31:41Z" finished-at="2019-04-03T09:32:21Z">
+      <class name="Sanity.playPauseSongTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.playPauseSongTest@59ec2012]" name="setupDriver" is-config="true" duration-ms="925" started-at="2019-04-03T09:31:41Z" finished-at="2019-04-03T09:31:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" duration-ms="11112" started-at="2019-04-01T14:56:20Z" description="this test should enter a valid card and should be succeeded" finished-at="2019-04-01T14:56:32Z">
+        <test-method status="PASS" signature="playPauseSong()[pri:0, instance:Sanity.playPauseSongTest@59ec2012]" name="playPauseSong" duration-ms="38234" started-at="2019-04-03T09:31:42Z" description="this test should play songs and pausing them" finished-at="2019-04-03T09:32:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PaymentTestSuccess -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="66" started-at="2019-04-01T14:56:32Z" finished-at="2019-04-01T14:56:32Z">
+        </test-method> <!-- playPauseSong -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.playPauseSongTest@59ec2012]" name="quitDriver" is-config="true" duration-ms="62" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
+      </class> <!-- Sanity.playPauseSongTest -->
+      <class name="Sanity.LoginTest">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest@4cf777e8]" name="LoginTest" duration-ms="1" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest.LoginTest(LoginTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest -->
+      <class name="Sanity.MainMenueGenreClassicalTest">
+        <test-method status="FAIL" signature="MainMenueGenreClassical()[pri:0, instance:Sanity.MainMenueGenreClassicalTest@2f686d1f]" name="MainMenueGenreClassical" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreClassicalTest.MainMenueGenreClassical(MainMenueGenreClassicalTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreClassical -->
+      </class> <!-- Sanity.MainMenueGenreClassicalTest -->
+      <class name="Sanity.MainMenueMoodSadTest">
+        <test-method status="FAIL" signature="MainMenueMoodSad()[pri:0, instance:Sanity.MainMenueMoodSadTest@3fee9989]" name="MainMenueMoodSad" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Sad" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodSadTest.MainMenueMoodSad(MainMenueMoodSadTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodSad -->
+      </class> <!-- Sanity.MainMenueMoodSadTest -->
+      <class name="Sanity.MainMenueGenreCountryTest">
+        <test-method status="FAIL" signature="MainMenueGenreCountry()[pri:0, instance:Sanity.MainMenueGenreCountryTest@73ad2d6]" name="MainMenueGenreCountry" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreCountryTest.MainMenueGenreCountry(MainMenueGenreCountryTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreCountry -->
+      </class> <!-- Sanity.MainMenueGenreCountryTest -->
+      <class name="Sanity.MainMenueGenreFunkyAndGrooveTest">
+        <test-method status="FAIL" signature="MainMenueGenreFunkyAndGroove()[pri:0, instance:Sanity.MainMenueGenreFunkyAndGrooveTest@7085bdee]" name="MainMenueGenreFunkyAndGroove" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreFunkyAndGrooveTest.MainMenueGenreFunkyAndGroove(MainMenueGenreFunkyAndGrooveTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreFunkyAndGroove -->
+      </class> <!-- Sanity.MainMenueGenreFunkyAndGrooveTest -->
+      <class name="Sanity.MainMenueGenreSingerSongwriterTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreSingerSongwriterTest@1ce92674]" name="mainMenuGenreHoliday" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreSingerSongwriterTest.mainMenuGenreHoliday(MainMenueGenreSingerSongwriterTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.MainMenueGenreSingerSongwriterTest -->
+      <class name="Sanity.MainMenueMoodHappyTest">
+        <test-method status="FAIL" signature="MainMenueMoodHappy()[pri:0, instance:Sanity.MainMenueMoodHappyTest@5700d6b1]" name="MainMenueMoodHappy" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Happy" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodHappyTest.MainMenueMoodHappy(MainMenueMoodHappyTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodHappy -->
+      </class> <!-- Sanity.MainMenueMoodHappyTest -->
+      <class name="Sanity.MainMenueGenreFolkTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreFolkTest@6fd02e5]" name="mainMenuGenreHoliday" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreFolkTest.mainMenuGenreHoliday(MainMenueGenreFolkTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.MainMenueGenreFolkTest -->
+      <class name="Sanity.MainMenueMoodPeacefulTest">
+        <test-method status="FAIL" signature="MainMenueMoodPeaceful()[pri:0, instance:Sanity.MainMenueMoodPeacefulTest@e45f292]" name="MainMenueMoodPeaceful" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Peaceful" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodPeacefulTest.MainMenueMoodPeaceful(MainMenueMoodPeacefulTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodPeaceful -->
+      </class> <!-- Sanity.MainMenueMoodPeacefulTest -->
+      <class name="Sanity.MainMenueMoodPowerfulTest">
+        <test-method status="FAIL" signature="MainMenueMoodPowerful()[pri:0, instance:Sanity.MainMenueMoodPowerfulTest@5bcab519]" name="MainMenueMoodPowerful" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Powerful" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodPowerfulTest.MainMenueMoodPowerful(MainMenueMoodPowerfulTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodPowerful -->
+      </class> <!-- Sanity.MainMenueMoodPowerfulTest -->
+      <class name="Sanity.MainMenueMoodLoveTest">
+        <test-method status="FAIL" signature="MainMenueMoodLove()[pri:0, instance:Sanity.MainMenueMoodLoveTest@5f2108b5]" name="MainMenueMoodLove" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Love" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodLoveTest.MainMenueMoodLove(MainMenueMoodLoveTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodLove -->
+      </class> <!-- Sanity.MainMenueMoodLoveTest -->
+      <class name="Sanity.LoginTest6">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest6@31a5c39e]" name="LoginTest" duration-ms="0" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest6.LoginTest(LoginTest6.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest6 -->
+      <class name="Sanity.LoginTest5">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest5@3f49dace]" name="LoginTest" duration-ms="0" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest5.LoginTest(LoginTest5.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest5 -->
+      <class name="Sanity.MainMenueGenreReggaeTest">
+        <test-method status="FAIL" signature="MainMenueGenreReggae()[pri:0, instance:Sanity.MainMenueGenreReggaeTest@1e397ed7]" name="MainMenueGenreReggae" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreReggaeTest.MainMenueGenreReggae(MainMenueGenreReggaeTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreReggae -->
+      </class> <!-- Sanity.MainMenueGenreReggaeTest -->
+      <class name="Sanity.LoginTest4">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest4@490ab905]" name="LoginTest" duration-ms="1" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest4.LoginTest(LoginTest4.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest4 -->
+      <class name="Sanity.MainMenueMoodHopefulTest">
+        <test-method status="FAIL" signature="MainMenueMoodHopeful()[pri:0, instance:Sanity.MainMenueMoodHopefulTest@56ac3a89]" name="MainMenueMoodHopeful" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Hopeful" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodHopefulTest.MainMenueMoodHopeful(MainMenueMoodHopefulTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodHopeful -->
+      </class> <!-- Sanity.MainMenueMoodHopefulTest -->
+      <class name="Sanity.LoginTest3">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest3@27c20538]" name="LoginTest" duration-ms="0" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest3.LoginTest(LoginTest3.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest3 -->
+      <class name="Sanity.MainMenueMoodUpliftingTest">
+        <test-method status="FAIL" signature="MainMenueMoodUplifting()[pri:0, instance:Sanity.MainMenueMoodUpliftingTest@72d818d1]" name="MainMenueMoodUplifting" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Uplifting" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodUpliftingTest.MainMenueMoodUplifting(MainMenueMoodUpliftingTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodUplifting -->
+      </class> <!-- Sanity.MainMenueMoodUpliftingTest -->
+      <class name="Sanity.MainMenueGenreAcousticTest">
+        <test-method status="FAIL" signature="MainMenueGenreAcoustic()[pri:0, instance:Sanity.MainMenueGenreAcousticTest@59494225]" name="MainMenueGenreAcoustic" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreAcousticTest.MainMenueGenreAcoustic(MainMenueGenreAcousticTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreAcoustic -->
+      </class> <!-- Sanity.MainMenueGenreAcousticTest -->
+      <class name="Sanity.LoginTest8">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest8@6e06451e]" name="LoginTest" duration-ms="0" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest8.LoginTest(LoginTest8.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest8 -->
+      <class name="Sanity.LoginTest7">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:Sanity.LoginTest7@6e1567f1]" name="LoginTest" duration-ms="1" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.LoginTest7.LoginTest(LoginTest7.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- Sanity.LoginTest7 -->
+      <class name="Sanity.mainMenuGenreHolidayTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.mainMenuGenreHolidayTest@5cb9f472]" name="mainMenuGenreHoliday" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.mainMenuGenreHolidayTest.mainMenuGenreHoliday(mainMenuGenreHolidayTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.mainMenuGenreHolidayTest -->
+      <class name="Sanity.DownloadTest">
+        <test-method status="FAIL" signature="DownloadTest()[pri:0, instance:Sanity.DownloadTest@cb644e]" name="DownloadTest" duration-ms="1" started-at="2019-04-03T09:32:21Z" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at LoginPages.LoginPage.<init>(LoginPage.java:36)
+at Sanity.DownloadTest.DownloadTest(DownloadTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadTest -->
+      </class> <!-- Sanity.DownloadTest -->
+      <class name="Sanity.PaymentTest">
+        <test-method status="FAIL" signature="PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@13805618]" name="PaymentTestSuccess" duration-ms="2" started-at="2019-04-03T09:32:21Z" description="this test should enter a valid card and should be succeeded" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at Payment.PricingModal.<init>(PricingModal.java:66)
+at Sanity.PaymentTest.PaymentTestSuccess(PaymentTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentTestSuccess -->
       </class> <!-- Sanity.PaymentTest -->
+      <class name="Sanity.MainMenueMoodDramaticTest">
+        <test-method status="FAIL" signature="MainMenueMoodDramatic()[pri:0, instance:Sanity.MainMenueMoodDramaticTest@56ef9176]" name="MainMenueMoodDramatic" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Dramatic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodDramaticTest.MainMenueMoodDramatic(MainMenueMoodDramaticTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodDramatic -->
+      </class> <!-- Sanity.MainMenueMoodDramaticTest -->
+      <class name="Sanity.MainMenueMoodCarefreeTest">
+        <test-method status="FAIL" signature="MainMenueMoodCarefree()[pri:0, instance:Sanity.MainMenueMoodCarefreeTest@4566e5bd]" name="MainMenueMoodCarefree" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Carefree" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodCarefreeTest.MainMenueMoodCarefree(MainMenueMoodCarefreeTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodCarefree -->
+      </class> <!-- Sanity.MainMenueMoodCarefreeTest -->
+      <class name="Sanity.MainMenueGenrePopTest">
+        <test-method status="FAIL" signature="MainMenueGenrePop()[pri:0, instance:Sanity.MainMenueGenrePopTest@1ed4004b]" name="MainMenueGenrePop" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenrePopTest.MainMenueGenrePop(MainMenueGenrePopTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenrePop -->
+      </class> <!-- Sanity.MainMenueGenrePopTest -->
+      <class name="Sanity.MainMenueGenreChildrenTest">
+        <test-method status="FAIL" signature="MainMenueGenreChildren()[pri:0, instance:Sanity.MainMenueGenreChildrenTest@ff5b51f]" name="MainMenueGenreChildren" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreChildrenTest.MainMenueGenreChildren(MainMenueGenreChildrenTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreChildren -->
+      </class> <!-- Sanity.MainMenueGenreChildrenTest -->
+      <class name="Sanity.MainMenueMoodSeriousTest">
+        <test-method status="FAIL" signature="MainMenueMoodSerious()[pri:0, instance:Sanity.MainMenueMoodSeriousTest@25bbe1b6]" name="MainMenueMoodSerious" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Serious" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodSeriousTest.MainMenueMoodSerious(MainMenueMoodSeriousTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodSerious -->
+      </class> <!-- Sanity.MainMenueMoodSeriousTest -->
+      <class name="Sanity.MainMenueGenreIndieTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreIndieTest@5702b3b1]" name="mainMenuGenreHoliday" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreIndieTest.mainMenuGenreHoliday(MainMenueGenreIndieTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.MainMenueGenreIndieTest -->
+      <class name="Sanity.MainMenueGenreHipHopTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreHipHopTest@69ea3742]" name="mainMenuGenreHoliday" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreHipHopTest.mainMenuGenreHoliday(MainMenueGenreHipHopTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.MainMenueGenreHipHopTest -->
+      <class name="Sanity.MainMenueGenreWorldTest">
+        <test-method status="FAIL" signature="MainMenueGenreWorld()[pri:0, instance:Sanity.MainMenueGenreWorldTest@3159c4b8]" name="MainMenueGenreWorld" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreWorldTest.MainMenueGenreWorld(MainMenueGenreWorldTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreWorld -->
+      </class> <!-- Sanity.MainMenueGenreWorldTest -->
+      <class name="Sanity.MainMenueMoodPlayfulTest">
+        <test-method status="FAIL" signature="MainMenueMoodPlayful()[pri:0, instance:Sanity.MainMenueMoodPlayfulTest@4b952a2d]" name="MainMenueMoodPlayful" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Playful" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodPlayfulTest.MainMenueMoodPlayful(MainMenueMoodPlayfulTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodPlayful -->
+      </class> <!-- Sanity.MainMenueMoodPlayfulTest -->
+      <class name="Sanity.MainMenueGenreBluesTest">
+        <test-method status="FAIL" signature="MainMenueGenreBlues()[pri:0, instance:Sanity.MainMenueGenreBluesTest@73846619]" name="MainMenueGenreBlues" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreBluesTest.MainMenueGenreBlues(MainMenueGenreBluesTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreBlues -->
+      </class> <!-- Sanity.MainMenueGenreBluesTest -->
+      <class name="Sanity.MainMenueMoodAngryTest">
+        <test-method status="FAIL" signature="MainMenueMoodAngry()[pri:0, instance:Sanity.MainMenueMoodAngryTest@4bec1f0c]" name="MainMenueMoodAngry" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Angry" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodAngryTest.MainMenueMoodAngry(MainMenueMoodAngryTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodAngry -->
+      </class> <!-- Sanity.MainMenueMoodAngryTest -->
+      <class name="Sanity.MainMenueMoodTenseTest">
+        <test-method status="FAIL" signature="MainMenueMoodTense()[pri:0, instance:Sanity.MainMenueMoodTenseTest@29ca901e]" name="MainMenueMoodTense" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood Tense" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodTenseTest.MainMenueMoodTense(MainMenueMoodTenseTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodTense -->
+      </class> <!-- Sanity.MainMenueMoodTenseTest -->
+      <class name="Sanity.MainMenueMoodScaryAndDarkTest">
+        <test-method status="FAIL" signature="MainMenueMoodScaryAndDark()[pri:0, instance:Sanity.MainMenueMoodScaryAndDarkTest@5649fd9b]" name="MainMenueMoodScaryAndDark" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Mood ScaryAndDark" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueMoodScaryAndDarkTest.MainMenueMoodScaryAndDark(MainMenueMoodScaryAndDarkTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueMoodScaryAndDark -->
+      </class> <!-- Sanity.MainMenueMoodScaryAndDarkTest -->
+      <class name="Sanity.searchTest">
+        <test-method status="FAIL" signature="search()[pri:0, instance:Sanity.searchTest@2d928643]" name="search" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script is searching for a letter, then picks up the first result" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at SearchHeader.SearchHeader.<init>(SearchHeader.java:56)
+at Sanity.searchTest.search(searchTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- Sanity.searchTest -->
+      <class name="Sanity.MainMenueGenreCinematicTest">
+        <test-method status="FAIL" signature="MainMenueGenreCinematic()[pri:0, instance:Sanity.MainMenueGenreCinematicTest@6adede5]" name="MainMenueGenreCinematic" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreCinematicTest.MainMenueGenreCinematic(MainMenueGenreCinematicTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreCinematic -->
+      </class> <!-- Sanity.MainMenueGenreCinematicTest -->
+      <class name="Sanity.MainMenueGenreSoulAndRnBTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.MainMenueGenreSoulAndRnBTest@5025a98f]" name="mainMenuGenreHoliday" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreSoulAndRnBTest.mainMenuGenreHoliday(MainMenueGenreSoulAndRnBTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.MainMenueGenreSoulAndRnBTest -->
+      <class name="Sanity.MainMenueGenreAmbientTest">
+        <test-method status="FAIL" signature="MainMenueGenreAmbient()[pri:0, instance:Sanity.MainMenueGenreAmbientTest@49993335]" name="MainMenueGenreAmbient" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreAmbientTest.MainMenueGenreAmbient(MainMenueGenreAmbientTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreAmbient -->
+      </class> <!-- Sanity.MainMenueGenreAmbientTest -->
+      <class name="Sanity.MainMenueGenreRockTest">
+        <test-method status="FAIL" signature="MainMenueGenreRock()[pri:0, instance:Sanity.MainMenueGenreRockTest@192b07fd]" name="MainMenueGenreRock" duration-ms="1" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreRockTest.MainMenueGenreRock(MainMenueGenreRockTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreRock -->
+      </class> <!-- Sanity.MainMenueGenreRockTest -->
+      <class name="Sanity.MainMenueGenreJazzTest">
+        <test-method status="FAIL" signature="MainMenueGenreJazz()[pri:0, instance:Sanity.MainMenueGenreJazzTest@20322d26]" name="MainMenueGenreJazz" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.MainMenueGenreJazzTest.MainMenueGenreJazz(MainMenueGenreJazzTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainMenueGenreJazz -->
+      </class> <!-- Sanity.MainMenueGenreJazzTest -->
+      <class name="Sanity.mainMenuGenreElectronicTest">
+        <test-method status="FAIL" signature="mainMenuGenreHoliday()[pri:0, instance:Sanity.mainMenuGenreElectronicTest@64bfbc86]" name="mainMenuGenreHoliday" duration-ms="0" started-at="2019-04-03T09:32:21Z" description="the script should click main menue Genre Acoustic" finished-at="2019-04-03T09:32:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:212)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:102)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+at MainMenue.MainMenue.<init>(MainMenue.java:187)
+at Sanity.mainMenuGenreElectronicTest.mainMenuGenreHoliday(mainMenuGenreElectronicTest.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainMenuGenreHoliday -->
+      </class> <!-- Sanity.mainMenuGenreElectronicTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,6 +3,244 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="Sanity.MainMenueMoodUpliftingTest">
+        <methods>
+          <include name="MainMenueMoodUplifting"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodUpliftingTest -->
+      <class name="Sanity.MainMenueGenreJazzTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="MainMenueGenreJazz"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreJazzTest -->
+      <class name="Sanity.MainMenueMoodHappyTest">
+        <methods>
+          <include name="MainMenueMoodHappy"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodHappyTest -->
+      <class name="Sanity.MainMenueMoodSadTest">
+        <methods>
+          <include name="MainMenueMoodSad"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodSadTest -->
+      <class name="Sanity.MainMenueMoodAngryTest">
+        <methods>
+          <include name="MainMenueMoodAngry"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodAngryTest -->
+      <class name="Sanity.MainMenueMoodPowerfulTest">
+        <methods>
+          <include name="MainMenueMoodPowerful"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodPowerfulTest -->
+      <class name="Sanity.mainMenuGenreHolidayTest">
+        <methods>
+          <include name="mainMenuGenreHoliday"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.mainMenuGenreHolidayTest -->
+      <class name="Sanity.LoginTest3">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest3 -->
+      <class name="Sanity.MainMenueMoodDramaticTest">
+        <methods>
+          <include name="MainMenueMoodDramatic"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodDramaticTest -->
+      <class name="Sanity.LoginTest4">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest4 -->
+      <class name="Sanity.MainMenueGenreIndieTest">
+        <methods>
+          <include name="mainMenuGenreHoliday"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreIndieTest -->
+      <class name="Sanity.MainMenueMoodHopefulTest">
+        <methods>
+          <include name="MainMenueMoodHopeful"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodHopefulTest -->
+      <class name="Sanity.MainMenueGenreWorldTest">
+        <methods>
+          <include name="MainMenueGenreWorld"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreWorldTest -->
+      <class name="Sanity.MainMenueGenreSoulAndRnBTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="mainMenuGenreHoliday"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreSoulAndRnBTest -->
+      <class name="Sanity.MainMenueMoodScaryAndDarkTest">
+        <methods>
+          <include name="MainMenueMoodScaryAndDark"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodScaryAndDarkTest -->
+      <class name="Sanity.MainMenueGenreRockTest">
+        <methods>
+          <include name="MainMenueGenreRock"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreRockTest -->
+      <class name="Sanity.searchTest">
+        <methods>
+          <include name="search"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.searchTest -->
+      <class name="Sanity.MainMenueGenrePopTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+          <include name="MainMenueGenrePop"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenrePopTest -->
+      <class name="Sanity.MainMenueMoodLoveTest">
+        <methods>
+          <include name="MainMenueMoodLove"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodLoveTest -->
+      <class name="Sanity.MainMenueGenreClassicalTest">
+        <methods>
+          <include name="MainMenueGenreClassical"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreClassicalTest -->
+      <class name="Sanity.LoginTest7">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest7 -->
+      <class name="Sanity.MainMenueGenreCountryTest">
+        <methods>
+          <include name="MainMenueGenreCountry"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreCountryTest -->
+      <class name="Sanity.MainMenueGenreHipHopTest">
+        <methods>
+          <include name="mainMenuGenreHoliday"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreHipHopTest -->
+      <class name="Sanity.MainMenueGenreSingerSongwriterTest">
+        <methods>
+          <include name="mainMenuGenreHoliday"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreSingerSongwriterTest -->
+      <class name="Sanity.MainMenueGenreChildrenTest">
+        <methods>
+          <include name="MainMenueGenreChildren"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreChildrenTest -->
+      <class name="Sanity.DownloadTest">
+        <methods>
+          <include name="DownloadTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.DownloadTest -->
+      <class name="Sanity.LoginTest8">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest8 -->
+      <class name="Sanity.MainMenueMoodTenseTest">
+        <methods>
+          <include name="MainMenueMoodTense"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodTenseTest -->
+      <class name="Sanity.MainMenueMoodCarefreeTest">
+        <methods>
+          <include name="MainMenueMoodCarefree"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodCarefreeTest -->
+      <class name="Sanity.MainMenueGenreAcousticTest">
+        <methods>
+          <include name="MainMenueGenreAcoustic"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreAcousticTest -->
+      <class name="Sanity.MainMenueGenreBluesTest">
+        <methods>
+          <include name="MainMenueGenreBlues"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreBluesTest -->
+      <class name="Sanity.MainMenueMoodPeacefulTest">
+        <methods>
+          <include name="MainMenueMoodPeaceful"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodPeacefulTest -->
+      <class name="Sanity.LoginTest6">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="LoginTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest6 -->
+      <class name="Sanity.MainMenueGenreAmbientTest">
+        <methods>
+          <include name="MainMenueGenreAmbient"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreAmbientTest -->
       <class name="Sanity.PaymentTest">
         <methods>
           <include name="PaymentTestSuccess"/>
@@ -10,6 +248,69 @@
           <include name="quitDriver"/>
         </methods>
       </class> <!-- Sanity.PaymentTest -->
+      <class name="Sanity.LoginTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest -->
+      <class name="Sanity.MainMenueGenreCinematicTest">
+        <methods>
+          <include name="MainMenueGenreCinematic"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreCinematicTest -->
+      <class name="Sanity.MainMenueMoodSeriousTest">
+        <methods>
+          <include name="MainMenueMoodSerious"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodSeriousTest -->
+      <class name="Sanity.mainMenuGenreElectronicTest">
+        <methods>
+          <include name="mainMenuGenreHoliday"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.mainMenuGenreElectronicTest -->
+      <class name="Sanity.MainMenueGenreReggaeTest">
+        <methods>
+          <include name="MainMenueGenreReggae"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreReggaeTest -->
+      <class name="Sanity.LoginTest5">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="LoginTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.LoginTest5 -->
+      <class name="Sanity.MainMenueGenreFunkyAndGrooveTest">
+        <methods>
+          <include name="MainMenueGenreFunkyAndGroove"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreFunkyAndGrooveTest -->
+      <class name="Sanity.MainMenueGenreFolkTest">
+        <methods>
+          <include name="mainMenuGenreHoliday"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueGenreFolkTest -->
+      <class name="Sanity.MainMenueMoodPlayfulTest">
+        <methods>
+          <include name="MainMenueMoodPlayful"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.MainMenueMoodPlayfulTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
