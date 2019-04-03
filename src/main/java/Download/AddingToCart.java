@@ -3,6 +3,8 @@ package Download;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
@@ -24,7 +26,7 @@ public class AddingToCart {
     @FindBy(css= "#btnlogin")
     private WebElement loginBtn;
 
-    @FindBy(xpath = "//div[@id='song_11609']//i[@title='Add to Cart']")
+    @FindBy(css = "#song_11609 a.add-cart")
     private WebElement addToCartInput;
 
     @FindBy(css = "#top-bar > div.row.top-row > div > div > div > div.login-side > div > div.carttop > a > i")
@@ -37,7 +39,22 @@ public class AddingToCart {
 private void WebDriverWait(WebElement signInBtn2, int i) {
 		
 	}
-    
+   
+public AddingToCart(WebDriver driver) {
+    this.driver = driver; 
+    this.wait = new WebDriverWait (driver, 30);
+     PageFactory.initElements(driver, this);
+}
+
+public AddingToCart() {
+	
+}
+
+public  void goTo() {
+     this.driver.get("https://artlist.io");
+     this.wait.until(ExpectedConditions.visibilityOf(this.signInBtn));  
+}
+
     public void clickSignInBtn() {
     	WebDriverWait(signInBtn, 10);
         this.signInBtn.click();

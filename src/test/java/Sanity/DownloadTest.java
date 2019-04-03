@@ -17,16 +17,14 @@ public class DownloadTest extends BaseTest{
     @Test
     public void DownloadTest() throws InterruptedException {
     	LoginPage loginPage = new LoginPage(driver);
-    	AddingToCart addingToCart = new AddingToCart ();
+    	AddingToCart addingToCart = new AddingToCart (driver);
         loginPage.goTo();
         driver.manage().window().maximize();
         loginPage.signInBtn();
-        Thread.sleep(5000); 
         loginPage.enterUserCredentials("ilanmg@artlist.io", "Tomido1212*");  
         loginPage.loginBtn();
-        Thread.sleep(5000); 
         addingToCart.clickAddToCartIcon();
-        //addingToCart.clickShppingCart();
+        addingToCart.clickShppingCart();
        
         //Assert.assertEquals(true, searchHeader.StartNow());
 
