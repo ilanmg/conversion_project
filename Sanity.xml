@@ -1,8 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Sanity" parallel="tests">
+  
    <test name="Sanity">
         <classes>
             <class name="Sanity.LoginTest" />
+        </classes>
+    </test>
+    <test name="Sanity2">
+        <classes>
+            <class name="Sanity.DownloadTest" />
         </classes>
     </test>
    

@@ -21,9 +21,11 @@ public class DownloadTest extends BaseTest{
         loginPage.goTo();
         driver.manage().window().maximize();
         loginPage.signInBtn();
-        loginPage.enterUserCredentials("ilanmg@artlist.io", "Tomido1212*");  
+        Thread.sleep(5000);
+        loginPage.enterUserCredentials("ilanmg@artlist.io", "Tomido1212*");
         loginPage.loginBtn();
-        addingToCart.clickAddToCartIcon();
+        Thread.sleep(5000);
+        addingToCart.clickAddToCartIcon(); 
         addingToCart.clickShppingCart();
        
         //Assert.assertEquals(true, searchHeader.StartNow());

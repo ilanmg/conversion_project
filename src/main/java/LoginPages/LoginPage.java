@@ -47,11 +47,12 @@ public class LoginPage {
     }
 
    public void enterUserCredentials(String  Email, String password) {
-        this.logemail.sendKeys("ilanmg@artlist.io");
-        this.loginPasswordInput.sendKeys("Tomido1212*");
+        this.logemail.sendKeys(Email);
+        this.loginPasswordInput.sendKeys(password);
    }
 
    public void loginBtn() {
+	   this.wait = new WebDriverWait (driver, 30);
         this.loginBtn.click();
    }
    public boolean getLicense() {
