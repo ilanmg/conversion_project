@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest{
         loginPage.enterUserCredentials("ilanmg@artlist.io", "Tomido1212*");
         loginPage.loginBtn();
 
-        Assert.assertEquals(true, searchHeader.StartNow());
+        Assert.assertEquals(false, searchHeader.StartNow());
 
     }
 }
