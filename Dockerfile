@@ -4,7 +4,7 @@ FROM openjdk:8-jre
 # Maven creates container-test.jar in the target folder of my workspace.
 # We need this in some location - say - /usr/share/tag folder of the container
 
-ADD  target/container-test.jar /usr/share/tag/container-test.jar
+#ADD  target/container-test.jar /usr/share/tag/container-test.jar
 
 # Command line to execute the test
-ENTRYPOINT ["/usr/share/udemy", "-cp", "/usr/share/tag/container-test.jar", "org.testng.TestNG", "Sanity.xml"]
+ENTRYPOINT mvn test -DsuiteXmlFile=Sanity.xml -Dremote=true
