@@ -1,1 +1,7 @@
+SearchHeader\SearchHeader.class
+LoginPages\LoginPage.class
+Download\AddingToCart.class
+MainMenue\MainMenue.class
+Payment\PricingModal.class
 Selenium_Docker\Selenium_Docker\App.class
+PlaySongsFromHomepage\java\PlaySongsFromHomepage.class

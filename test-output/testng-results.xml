@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29847" started-at="2019-04-04T09:49:11Z" finished-at="2019-04-04T09:49:41Z">
+  <suite name="Default suite" duration-ms="41971" started-at="2019-04-10T12:35:04Z" finished-at="2019-04-10T12:35:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29847" started-at="2019-04-04T09:49:11Z" finished-at="2019-04-04T09:49:41Z">
+    <test name="Default test" duration-ms="41971" started-at="2019-04-10T12:35:04Z" finished-at="2019-04-10T12:35:46Z">
       <class name="Sanity.DownloadTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.DownloadTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="1844" started-at="2019-04-04T09:49:11Z" finished-at="2019-04-04T09:49:13Z">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.DownloadTest@6d4b1c02]" name="setupDriver" is-config="true" duration-ms="1060" started-at="2019-04-10T12:35:04Z" finished-at="2019-04-10T12:35:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="DownloadTest()[pri:0, instance:Sanity.DownloadTest@604ed9f0]" name="DownloadTest" duration-ms="27880" started-at="2019-04-04T09:49:13Z" finished-at="2019-04-04T09:49:41Z">
+        <test-method status="PASS" signature="DownloadTest()[pri:0, instance:Sanity.DownloadTest@6d4b1c02]" name="DownloadTest" duration-ms="40801" started-at="2019-04-10T12:35:05Z" finished-at="2019-04-10T12:35:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DownloadTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.DownloadTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="113" started-at="2019-04-04T09:49:41Z" finished-at="2019-04-04T09:49:41Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.DownloadTest@6d4b1c02]" name="quitDriver" is-config="true" duration-ms="99" started-at="2019-04-10T12:35:46Z" finished-at="2019-04-10T12:35:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
