@@ -30,7 +30,7 @@ public class BaseTest{
             host = System.getProperty("HUB_HOST");
         }
 
-        String completeUrl = "https://jenkins-grid-hub-ci.azurewebsites.net/wd/hub";
+        String completeUrl = "http://192.168.56.1:4444/wd/hub";
         this.driver = new RemoteWebDriver(new URL(completeUrl), dc);
     }
 
