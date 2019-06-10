@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sanity.PaymentTest">
+      <class name="Sanity.MetricConversions">
         <methods>
-          <include name="PaymentTestSuccess"/>
-          <include name="setupDriver"/>
-          <include name="quitDriver"/>
+          <include name="CelsiusToFahrenheit"/>
         </methods>
-      </class> <!-- Sanity.PaymentTest -->
+      </class> <!-- Sanity.MetricConversions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

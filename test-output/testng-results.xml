@@ -2,27 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12190" started-at="2019-04-01T14:56:19Z" finished-at="2019-04-01T14:56:32Z">
+  <suite name="Default suite" duration-ms="26897" started-at="2019-06-10T06:48:59Z" finished-at="2019-06-10T06:49:26Z">
     <groups>
-      <group name="Artlist">
-        <method signature="PaymentTest.PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" class="Sanity.PaymentTest"/>
-      </group> <!-- Artlist -->
     </groups>
-    <test name="Default test" duration-ms="12190" started-at="2019-04-01T14:56:19Z" finished-at="2019-04-01T14:56:32Z">
-      <class name="Sanity.PaymentTest">
-        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="setupDriver" is-config="true" duration-ms="999" started-at="2019-04-01T14:56:19Z" finished-at="2019-04-01T14:56:20Z">
+    <test name="Default test" duration-ms="26897" started-at="2019-06-10T06:48:59Z" finished-at="2019-06-10T06:49:26Z">
+      <class name="Sanity.OuncesToGrams">
+        <test-method status="PASS" signature="CelsiusToFahrenheit()[pri:0, instance:Sanity.OuncesToGrams@343f4d3d]" name="CelsiusToFahrenheit" duration-ms="26844" started-at="2019-06-10T06:48:59Z" finished-at="2019-06-10T06:49:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="PaymentTestSuccess()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="PaymentTestSuccess" duration-ms="11112" started-at="2019-04-01T14:56:20Z" description="this test should enter a valid card and should be succeeded" finished-at="2019-04-01T14:56:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PaymentTestSuccess -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.PaymentTest@604ed9f0]" name="quitDriver" is-config="true" duration-ms="66" started-at="2019-04-01T14:56:32Z" finished-at="2019-04-01T14:56:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- Sanity.PaymentTest -->
+        </test-method> <!-- CelsiusToFahrenheit -->
+      </class> <!-- Sanity.OuncesToGrams -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
