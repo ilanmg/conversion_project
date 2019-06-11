@@ -3,11 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Sanity.MetricConversions">
         <methods>
           <include name="CelsiusToFahrenheit"/>
         </methods>
       </class> <!-- Sanity.MetricConversions -->
+=======
+      <class name="Sanity.DownloadTest">
+        <methods>
+          <include name="DownloadTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Sanity.DownloadTest -->
+>>>>>>> ffd060733b1738531a2562a199cae42585afe05b
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

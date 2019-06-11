@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="8483" started-at="2019-06-11T15:12:41Z" finished-at="2019-06-11T15:12:50Z">
     <groups>
     </groups>
@@ -12,6 +13,26 @@
           </reporter-output>
         </test-method> <!-- CelsiusToFahrenheit -->
       </class> <!-- Sanity.MetricConversions -->
+=======
+  <suite name="Default suite" duration-ms="31045" started-at="2019-04-13T10:34:58Z" finished-at="2019-04-13T10:35:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31045" started-at="2019-04-13T10:34:58Z" finished-at="2019-04-13T10:35:29Z">
+      <class name="Sanity.LoginTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Sanity.LoginTest@6d4b1c02]" name="setupDriver" is-config="true" duration-ms="3954" started-at="2019-04-13T10:34:58Z" finished-at="2019-04-13T10:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Sanity.LoginTest@6d4b1c02]" name="LoginTest" duration-ms="26773" started-at="2019-04-13T10:35:02Z" finished-at="2019-04-13T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Sanity.LoginTest@6d4b1c02]" name="quitDriver" is-config="true" duration-ms="307" started-at="2019-04-13T10:35:29Z" finished-at="2019-04-13T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Sanity.LoginTest -->
+>>>>>>> ffd060733b1738531a2562a199cae42585afe05b
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
