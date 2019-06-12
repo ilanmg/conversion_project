@@ -7,12 +7,12 @@
         </classes>
     </test>
     
-    <test name="Sanity3">
+    <test name="Sanity1">
         <classes>
             <class name="Sanity.MteresToFeet" />
         </classes>
     </test>
-    <test name="Sanity4">
+    <test name="Sanity2">
         <classes>
             <class name="Sanity.OuncesToGrams" />
         </classes>
